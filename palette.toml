@@ -77,31 +77,18 @@ PEACH_800       = "#5d3730"  # 2.02:1
 PEACH_900       = "#422620"  # 1.50:1
 PEACH_950       = "#301915"  # 1.25:1
 
-# TUMBLEWEED: hue 47°, chroma 0.084, hand-picked #e2a587 at 400
-TUMBLEWEED_50   = "#ffe8dc"  # 17.50:1
-TUMBLEWEED_100  = "#ffdcca"  # 16.04:1
-TUMBLEWEED_200  = "#ffcfb7"  # 14.59:1
-TUMBLEWEED_300  = "#fabc9d"  # 12.51:1
-TUMBLEWEED_400  = "#e2a587"  # 9.78:1, hand-picked
-TUMBLEWEED_500  = "#bf8b71"  # 7.02:1
-TUMBLEWEED_600  = "#966d58"  # 4.54:1
-TUMBLEWEED_700  = "#745342"  # 3.00:1
-TUMBLEWEED_800  = "#543b2f"  # 2.01:1
-TUMBLEWEED_900  = "#3c2920"  # 1.50:1
-TUMBLEWEED_950  = "#2a1c15"  # 1.25:1
-
-# APRICOT: hue 57°, chroma 0.083, hand-picked #fac29a at 300
-APRICOT_50      = "#ffe9d9"  # 17.58:1
-APRICOT_100     = "#ffddc4"  # 16.09:1
-APRICOT_200     = "#ffcfac"  # 14.50:1
-APRICOT_300     = "#fac29a"  # 13.00:1, hand-picked
-APRICOT_400     = "#dcab87"  # 10.03:1
-APRICOT_500     = "#b88e70"  # 7.01:1
-APRICOT_600     = "#906f57"  # 4.51:1
-APRICOT_700     = "#705542"  # 3.01:1
-APRICOT_800     = "#513d2e"  # 2.02:1
-APRICOT_900     = "#3a2a1f"  # 1.50:1
-APRICOT_950     = "#281d14"  # 1.25:1
+# APRICOT: hue 47°, chroma 0.084, hand-picked #e2a587 at 400
+APRICOT_50      = "#ffe8dc"  # 17.50:1
+APRICOT_100     = "#ffdcca"  # 16.04:1
+APRICOT_200     = "#ffcfb7"  # 14.59:1
+APRICOT_300     = "#fabc9d"  # 12.51:1
+APRICOT_400     = "#e2a587"  # 9.78:1, hand-picked
+APRICOT_500     = "#bf8b71"  # 7.02:1
+APRICOT_600     = "#966d58"  # 4.54:1
+APRICOT_700     = "#745342"  # 3.00:1
+APRICOT_800     = "#543b2f"  # 2.01:1
+APRICOT_900     = "#3c2920"  # 1.50:1
+APRICOT_950     = "#2a1c15"  # 1.25:1
 
 # YELLOW: hue 86°, chroma 0.086, hand-picked #ffe2a3 at 100
 YELLOW_50       = "#ffebbe"  # 17.55:1
@@ -232,16 +219,11 @@ PINK_950        = "#2a1a29"  # 1.25:1
 # Which program slot gets which tier (Konsole "Intense", VS Code "ansiBright", ...) is
 # decided by the theme generator, not here.
 #
-# DEEP colors are the original hand-picked "intense" colors. LAVENDER, APRICOT, ROSE,
+# DEEP colors are the original hand-picked "intense" colors. LAVENDER, ROSE,
 # SKY, PERIWINKLE and SILVER had none, so theirs follow the median of the originals:
 # lightness -0.076 and 1.31x the chroma (in OKLCH).
-# MUTED colors of APRICOT, ROSE, SKY and PERIWINKLE keep the hue and lightness and take
+# MUTED colors of ROSE, SKY and PERIWINKLE keep the hue and lightness and take
 # 0.564x the chroma (the median of the hand-picked ones). SILVER is a gray, so no MUTED tier.
-APRICOT           = "#fac29a"
-APRICOT_BRIGHT    = "#ffe4d1"
-APRICOT_DEEP      = "#eca570"
-APRICOT_MUTED     = "#e8c8b2"
-APRICOT_QUIET     = "#58463c"
 BLUE              = "#569cd6"
 BLUE_BRIGHT       = "#6fb5f1"
 BLUE_DEEP         = "#3184c9"
@@ -311,11 +293,11 @@ TEAL_BRIGHT       = "#6be3c9"
 TEAL_DEEP         = "#2a8975"
 TEAL_MUTED        = "#71a69b"
 TEAL_QUIET        = "#1c4844"
-TUMBLEWEED        = "#e2a587"
-TUMBLEWEED_BRIGHT = "#fdbea0"
-TUMBLEWEED_DEEP   = "#d8875f"
-TUMBLEWEED_MUTED  = "#d3aa96"
-TUMBLEWEED_QUIET  = "#503c36"
+APRICOT           = "#e2a587"
+APRICOT_BRIGHT    = "#fdbea0"
+APRICOT_DEEP      = "#d8875f"
+APRICOT_MUTED     = "#d3aa96"
+APRICOT_QUIET     = "#503c36"
 YELLOW            = "#ffe2a3"
 YELLOW_BRIGHT     = "#ffeabd"
 YELLOW_DEEP       = "#ffd370"

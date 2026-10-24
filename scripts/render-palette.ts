@@ -22,7 +22,7 @@ for (const line of (await Deno.readTextFile(PALETTE_FILE)).split("\n")) {
 const LIGHT_BACKGROUND = "#ffffff"
 // the scale: columns are the steps, rows the hues (NEUTRAL first; then rainbow order)
 const STEPS = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950]
-const COLORS = ["NEUTRAL", "RED", "ROSE", "PEACH", "TUMBLEWEED", "APRICOT", "YELLOW", "GREEN", "TEAL", "SAPPHIRE", "SKY", "BLUE", "MAUVE", "PINK"]
+const COLORS = ["NEUTRAL", "RED", "ROSE", "PEACH", "APRICOT", "YELLOW", "GREEN", "TEAL", "SAPPHIRE", "SKY", "BLUE", "MAUVE", "PINK"]
 // the hand-picked base color of each hue, marked in the image (palette.toml notes "hand-picked")
 const handPicked = new Set<string>()
 for (const line of (await Deno.readTextFile(PALETTE_FILE)).split("\n")) {

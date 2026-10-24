@@ -11,7 +11,7 @@ const END = "# ---- end of scale ----"
 // 700 a visible UI line (3:1), 800 and darker backgrounds.
 const STEPS: [number, number][] = [[50, 17.5], [100, 16], [200, 14.5], [300, 12.5], [400, 10], [500, 7], [600, 4.5], [700, 3], [800, 2], [900, 1.5], [950, 1.25]]
 // the hues with a hand-picked base color (their legacy names below)
-const HUES = ["RED", "ROSE", "PEACH", "TUMBLEWEED", "APRICOT", "YELLOW", "GREEN", "TEAL", "SAPPHIRE", "SKY", "BLUE", "MAUVE", "PINK"]
+const HUES = ["RED", "ROSE", "PEACH", "APRICOT", "YELLOW", "GREEN", "TEAL", "SAPPHIRE", "SKY", "BLUE", "MAUVE", "PINK"]
 // NEUTRAL: the text, surfaces and lines, made from the hand-picked PERIWINKLE (#a8bcfc, very easy to read on
 // OBSIDIAN). SLATE, LAVENDER, PERIWINKLE and SILVER became NEUTRAL steps (2026-10-24).
 const NEUTRAL_BASE = "PERIWINKLE"

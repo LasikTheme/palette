@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1268" height="764" viewBox="0 0 1268 764" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1268" height="720" viewBox="0 0 1268 720" role="img" aria-labelledby="title desc">
 <title id="title">Lasik palette on OBSIDIAN</title>
 <desc id="desc">The Lasik scale: every hue in steps 50 (lightest) to 950 (darkest), with each color's hex value and its contrast ratio against the OBSIDIAN background #01030a. A star marks each hue's hand-picked base color.</desc>
 <style>
@@ -160,7 +160,7 @@
 <rect x="1144" y="228" width="20" height="20" rx="4" fill="#301915" stroke="#384058" stroke-width="1"/>
 <text x="1170" y="237" class="hex">301915</text>
 <text x="1170" y="252" class="ratio low">1.3</text>
-<text x="24" y="293" class="name">TUMBLEWEED</text>
+<text x="24" y="293" class="name">APRICOT</text>
 <rect x="144" y="272" width="20" height="20" rx="4" fill="#ffe8dc" stroke="#384058" stroke-width="1"/>
 <text x="170" y="281" class="hex">ffe8dc</text>
 <text x="170" y="296" class="ratio">17.5</text>
@@ -194,311 +194,277 @@
 <rect x="1144" y="272" width="20" height="20" rx="4" fill="#2a1c15" stroke="#384058" stroke-width="1"/>
 <text x="1170" y="281" class="hex">2a1c15</text>
 <text x="1170" y="296" class="ratio low">1.3</text>
-<text x="24" y="337" class="name">APRICOT</text>
-<rect x="144" y="316" width="20" height="20" rx="4" fill="#ffe9d9" stroke="#384058" stroke-width="1"/>
-<text x="170" y="325" class="hex">ffe9d9</text>
+<text x="24" y="337" class="name">YELLOW</text>
+<rect x="144" y="316" width="20" height="20" rx="4" fill="#ffebbe" stroke="#384058" stroke-width="1"/>
+<text x="170" y="325" class="hex">ffebbe</text>
 <text x="170" y="340" class="ratio">17.6</text>
-<rect x="244" y="316" width="20" height="20" rx="4" fill="#ffddc4" stroke="#384058" stroke-width="1"/>
-<text x="270" y="325" class="hex">ffddc4</text>
-<text x="270" y="340" class="ratio">16.1</text>
-<rect x="344" y="316" width="20" height="20" rx="4" fill="#ffcfac" stroke="#384058" stroke-width="1"/>
-<text x="370" y="325" class="hex">ffcfac</text>
-<text x="370" y="340" class="ratio">14.5</text>
-<rect x="444" y="316" width="20" height="20" rx="4" fill="#fac29a" stroke="#cad8ff" stroke-width="2"/>
-<text x="470" y="325" class="hex">fac29a</text>
-<text x="470" y="340" class="ratio">13.0 ★</text>
-<rect x="544" y="316" width="20" height="20" rx="4" fill="#dcab87" stroke="#384058" stroke-width="1"/>
-<text x="570" y="325" class="hex">dcab87</text>
+<rect x="244" y="316" width="20" height="20" rx="4" fill="#ffe2a3" stroke="#cad8ff" stroke-width="2"/>
+<text x="270" y="325" class="hex">ffe2a3</text>
+<text x="270" y="340" class="ratio">16.4 ★</text>
+<rect x="344" y="316" width="20" height="20" rx="4" fill="#f1d69a" stroke="#384058" stroke-width="1"/>
+<text x="370" y="325" class="hex">f1d69a</text>
+<text x="370" y="340" class="ratio">14.6</text>
+<rect x="444" y="316" width="20" height="20" rx="4" fill="#e0c78f" stroke="#384058" stroke-width="1"/>
+<text x="470" y="325" class="hex">e0c78f</text>
+<text x="470" y="340" class="ratio">12.5</text>
+<rect x="544" y="316" width="20" height="20" rx="4" fill="#cab280" stroke="#384058" stroke-width="1"/>
+<text x="570" y="325" class="hex">cab280</text>
 <text x="570" y="340" class="ratio">10.0</text>
-<rect x="644" y="316" width="20" height="20" rx="4" fill="#b88e70" stroke="#384058" stroke-width="1"/>
-<text x="670" y="325" class="hex">b88e70</text>
+<rect x="644" y="316" width="20" height="20" rx="4" fill="#a8956a" stroke="#384058" stroke-width="1"/>
+<text x="670" y="325" class="hex">a8956a</text>
 <text x="670" y="340" class="ratio">7.0</text>
-<rect x="744" y="316" width="20" height="20" rx="4" fill="#906f57" stroke="#384058" stroke-width="1"/>
-<text x="770" y="325" class="hex">906f57</text>
+<rect x="744" y="316" width="20" height="20" rx="4" fill="#837452" stroke="#384058" stroke-width="1"/>
+<text x="770" y="325" class="hex">837452</text>
 <text x="770" y="340" class="ratio">4.5</text>
-<rect x="844" y="316" width="20" height="20" rx="4" fill="#705542" stroke="#384058" stroke-width="1"/>
-<text x="870" y="325" class="hex">705542</text>
+<rect x="844" y="316" width="20" height="20" rx="4" fill="#66593e" stroke="#384058" stroke-width="1"/>
+<text x="870" y="325" class="hex">66593e</text>
 <text x="870" y="340" class="ratio low">3.0</text>
-<rect x="944" y="316" width="20" height="20" rx="4" fill="#513d2e" stroke="#384058" stroke-width="1"/>
-<text x="970" y="325" class="hex">513d2e</text>
+<rect x="944" y="316" width="20" height="20" rx="4" fill="#49402b" stroke="#384058" stroke-width="1"/>
+<text x="970" y="325" class="hex">49402b</text>
 <text x="970" y="340" class="ratio low">2.0</text>
-<rect x="1044" y="316" width="20" height="20" rx="4" fill="#3a2a1f" stroke="#384058" stroke-width="1"/>
-<text x="1070" y="325" class="hex">3a2a1f</text>
+<rect x="1044" y="316" width="20" height="20" rx="4" fill="#342d1d" stroke="#384058" stroke-width="1"/>
+<text x="1070" y="325" class="hex">342d1d</text>
 <text x="1070" y="340" class="ratio low">1.5</text>
-<rect x="1144" y="316" width="20" height="20" rx="4" fill="#281d14" stroke="#384058" stroke-width="1"/>
-<text x="1170" y="325" class="hex">281d14</text>
+<rect x="1144" y="316" width="20" height="20" rx="4" fill="#241f13" stroke="#384058" stroke-width="1"/>
+<text x="1170" y="325" class="hex">241f13</text>
 <text x="1170" y="340" class="ratio low">1.3</text>
-<text x="24" y="381" class="name">YELLOW</text>
-<rect x="144" y="360" width="20" height="20" rx="4" fill="#ffebbe" stroke="#384058" stroke-width="1"/>
-<text x="170" y="369" class="hex">ffebbe</text>
-<text x="170" y="384" class="ratio">17.6</text>
-<rect x="244" y="360" width="20" height="20" rx="4" fill="#ffe2a3" stroke="#cad8ff" stroke-width="2"/>
-<text x="270" y="369" class="hex">ffe2a3</text>
-<text x="270" y="384" class="ratio">16.4 ★</text>
-<rect x="344" y="360" width="20" height="20" rx="4" fill="#f1d69a" stroke="#384058" stroke-width="1"/>
-<text x="370" y="369" class="hex">f1d69a</text>
-<text x="370" y="384" class="ratio">14.6</text>
-<rect x="444" y="360" width="20" height="20" rx="4" fill="#e0c78f" stroke="#384058" stroke-width="1"/>
-<text x="470" y="369" class="hex">e0c78f</text>
+<text x="24" y="381" class="name">GREEN</text>
+<rect x="144" y="360" width="20" height="20" rx="4" fill="#d3f7c1" stroke="#384058" stroke-width="1"/>
+<text x="170" y="369" class="hex">d3f7c1</text>
+<text x="170" y="384" class="ratio">17.5</text>
+<rect x="244" y="360" width="20" height="20" rx="4" fill="#c9eeb8" stroke="#384058" stroke-width="1"/>
+<text x="270" y="369" class="hex">c9eeb8</text>
+<text x="270" y="384" class="ratio">16.1</text>
+<rect x="344" y="360" width="20" height="20" rx="4" fill="#bee3ad" stroke="#384058" stroke-width="1"/>
+<text x="370" y="369" class="hex">bee3ad</text>
+<text x="370" y="384" class="ratio">14.5</text>
+<rect x="444" y="360" width="20" height="20" rx="4" fill="#b0d49f" stroke="#384058" stroke-width="1"/>
+<text x="470" y="369" class="hex">b0d49f</text>
 <text x="470" y="384" class="ratio">12.5</text>
-<rect x="544" y="360" width="20" height="20" rx="4" fill="#cab280" stroke="#384058" stroke-width="1"/>
-<text x="570" y="369" class="hex">cab280</text>
-<text x="570" y="384" class="ratio">10.0</text>
-<rect x="644" y="360" width="20" height="20" rx="4" fill="#a8956a" stroke="#384058" stroke-width="1"/>
-<text x="670" y="369" class="hex">a8956a</text>
+<rect x="544" y="360" width="20" height="20" rx="4" fill="#a0c38f" stroke="#cad8ff" stroke-width="2"/>
+<text x="570" y="369" class="hex">a0c38f</text>
+<text x="570" y="384" class="ratio">10.5 ★</text>
+<rect x="644" y="360" width="20" height="20" rx="4" fill="#829f74" stroke="#384058" stroke-width="1"/>
+<text x="670" y="369" class="hex">829f74</text>
 <text x="670" y="384" class="ratio">7.0</text>
-<rect x="744" y="360" width="20" height="20" rx="4" fill="#837452" stroke="#384058" stroke-width="1"/>
-<text x="770" y="369" class="hex">837452</text>
+<rect x="744" y="360" width="20" height="20" rx="4" fill="#657d5a" stroke="#384058" stroke-width="1"/>
+<text x="770" y="369" class="hex">657d5a</text>
 <text x="770" y="384" class="ratio">4.5</text>
-<rect x="844" y="360" width="20" height="20" rx="4" fill="#66593e" stroke="#384058" stroke-width="1"/>
-<text x="870" y="369" class="hex">66593e</text>
+<rect x="844" y="360" width="20" height="20" rx="4" fill="#4d6044" stroke="#384058" stroke-width="1"/>
+<text x="870" y="369" class="hex">4d6044</text>
 <text x="870" y="384" class="ratio low">3.0</text>
-<rect x="944" y="360" width="20" height="20" rx="4" fill="#49402b" stroke="#384058" stroke-width="1"/>
-<text x="970" y="369" class="hex">49402b</text>
+<rect x="944" y="360" width="20" height="20" rx="4" fill="#374530" stroke="#384058" stroke-width="1"/>
+<text x="970" y="369" class="hex">374530</text>
 <text x="970" y="384" class="ratio low">2.0</text>
-<rect x="1044" y="360" width="20" height="20" rx="4" fill="#342d1d" stroke="#384058" stroke-width="1"/>
-<text x="1070" y="369" class="hex">342d1d</text>
+<rect x="1044" y="360" width="20" height="20" rx="4" fill="#263121" stroke="#384058" stroke-width="1"/>
+<text x="1070" y="369" class="hex">263121</text>
 <text x="1070" y="384" class="ratio low">1.5</text>
-<rect x="1144" y="360" width="20" height="20" rx="4" fill="#241f13" stroke="#384058" stroke-width="1"/>
-<text x="1170" y="369" class="hex">241f13</text>
+<rect x="1144" y="360" width="20" height="20" rx="4" fill="#1a2216" stroke="#384058" stroke-width="1"/>
+<text x="1170" y="369" class="hex">1a2216</text>
 <text x="1170" y="384" class="ratio low">1.3</text>
-<text x="24" y="425" class="name">GREEN</text>
-<rect x="144" y="404" width="20" height="20" rx="4" fill="#d3f7c1" stroke="#384058" stroke-width="1"/>
-<text x="170" y="413" class="hex">d3f7c1</text>
+<text x="24" y="425" class="name">TEAL</text>
+<rect x="144" y="404" width="20" height="20" rx="4" fill="#9affe7" stroke="#384058" stroke-width="1"/>
+<text x="170" y="413" class="hex">9affe7</text>
 <text x="170" y="428" class="ratio">17.5</text>
-<rect x="244" y="404" width="20" height="20" rx="4" fill="#c9eeb8" stroke="#384058" stroke-width="1"/>
-<text x="270" y="413" class="hex">c9eeb8</text>
+<rect x="244" y="404" width="20" height="20" rx="4" fill="#80f8dd" stroke="#384058" stroke-width="1"/>
+<text x="270" y="413" class="hex">80f8dd</text>
 <text x="270" y="428" class="ratio">16.1</text>
-<rect x="344" y="404" width="20" height="20" rx="4" fill="#bee3ad" stroke="#384058" stroke-width="1"/>
-<text x="370" y="413" class="hex">bee3ad</text>
+<rect x="344" y="404" width="20" height="20" rx="4" fill="#75edd2" stroke="#384058" stroke-width="1"/>
+<text x="370" y="413" class="hex">75edd2</text>
 <text x="370" y="428" class="ratio">14.5</text>
-<rect x="444" y="404" width="20" height="20" rx="4" fill="#b0d49f" stroke="#384058" stroke-width="1"/>
-<text x="470" y="413" class="hex">b0d49f</text>
-<text x="470" y="428" class="ratio">12.5</text>
-<rect x="544" y="404" width="20" height="20" rx="4" fill="#a0c38f" stroke="#cad8ff" stroke-width="2"/>
-<text x="570" y="413" class="hex">a0c38f</text>
-<text x="570" y="428" class="ratio">10.5 ★</text>
-<rect x="644" y="404" width="20" height="20" rx="4" fill="#829f74" stroke="#384058" stroke-width="1"/>
-<text x="670" y="413" class="hex">829f74</text>
+<rect x="444" y="404" width="20" height="20" rx="4" fill="#65dec4" stroke="#384058" stroke-width="1"/>
+<text x="470" y="413" class="hex">65dec4</text>
+<text x="470" y="428" class="ratio">12.6</text>
+<rect x="544" y="404" width="20" height="20" rx="4" fill="#4ec9b0" stroke="#cad8ff" stroke-width="2"/>
+<text x="570" y="413" class="hex">4ec9b0</text>
+<text x="570" y="428" class="ratio">10.1 ★</text>
+<rect x="644" y="404" width="20" height="20" rx="4" fill="#3fa792" stroke="#384058" stroke-width="1"/>
+<text x="670" y="413" class="hex">3fa792</text>
 <text x="670" y="428" class="ratio">7.0</text>
-<rect x="744" y="404" width="20" height="20" rx="4" fill="#657d5a" stroke="#384058" stroke-width="1"/>
-<text x="770" y="413" class="hex">657d5a</text>
+<rect x="744" y="404" width="20" height="20" rx="4" fill="#308372" stroke="#384058" stroke-width="1"/>
+<text x="770" y="413" class="hex">308372</text>
 <text x="770" y="428" class="ratio">4.5</text>
-<rect x="844" y="404" width="20" height="20" rx="4" fill="#4d6044" stroke="#384058" stroke-width="1"/>
-<text x="870" y="413" class="hex">4d6044</text>
+<rect x="844" y="404" width="20" height="20" rx="4" fill="#236557" stroke="#384058" stroke-width="1"/>
+<text x="870" y="413" class="hex">236557</text>
 <text x="870" y="428" class="ratio low">3.0</text>
-<rect x="944" y="404" width="20" height="20" rx="4" fill="#374530" stroke="#384058" stroke-width="1"/>
-<text x="970" y="413" class="hex">374530</text>
+<rect x="944" y="404" width="20" height="20" rx="4" fill="#17493e" stroke="#384058" stroke-width="1"/>
+<text x="970" y="413" class="hex">17493e</text>
 <text x="970" y="428" class="ratio low">2.0</text>
-<rect x="1044" y="404" width="20" height="20" rx="4" fill="#263121" stroke="#384058" stroke-width="1"/>
-<text x="1070" y="413" class="hex">263121</text>
+<rect x="1044" y="404" width="20" height="20" rx="4" fill="#0e332c" stroke="#384058" stroke-width="1"/>
+<text x="1070" y="413" class="hex">0e332c</text>
 <text x="1070" y="428" class="ratio low">1.5</text>
-<rect x="1144" y="404" width="20" height="20" rx="4" fill="#1a2216" stroke="#384058" stroke-width="1"/>
-<text x="1170" y="413" class="hex">1a2216</text>
+<rect x="1144" y="404" width="20" height="20" rx="4" fill="#07241e" stroke="#384058" stroke-width="1"/>
+<text x="1170" y="413" class="hex">07241e</text>
 <text x="1170" y="428" class="ratio low">1.3</text>
-<text x="24" y="469" class="name">TEAL</text>
-<rect x="144" y="448" width="20" height="20" rx="4" fill="#9affe7" stroke="#384058" stroke-width="1"/>
-<text x="170" y="457" class="hex">9affe7</text>
+<text x="24" y="469" class="name">SAPPHIRE</text>
+<rect x="144" y="448" width="20" height="20" rx="4" fill="#baf7ff" stroke="#384058" stroke-width="1"/>
+<text x="170" y="457" class="hex">baf7ff</text>
 <text x="170" y="472" class="ratio">17.5</text>
-<rect x="244" y="448" width="20" height="20" rx="4" fill="#80f8dd" stroke="#384058" stroke-width="1"/>
-<text x="270" y="457" class="hex">80f8dd</text>
-<text x="270" y="472" class="ratio">16.1</text>
-<rect x="344" y="448" width="20" height="20" rx="4" fill="#75edd2" stroke="#384058" stroke-width="1"/>
-<text x="370" y="457" class="hex">75edd2</text>
-<text x="370" y="472" class="ratio">14.5</text>
-<rect x="444" y="448" width="20" height="20" rx="4" fill="#65dec4" stroke="#384058" stroke-width="1"/>
-<text x="470" y="457" class="hex">65dec4</text>
-<text x="470" y="472" class="ratio">12.6</text>
-<rect x="544" y="448" width="20" height="20" rx="4" fill="#4ec9b0" stroke="#cad8ff" stroke-width="2"/>
-<text x="570" y="457" class="hex">4ec9b0</text>
-<text x="570" y="472" class="ratio">10.1 ★</text>
-<rect x="644" y="448" width="20" height="20" rx="4" fill="#3fa792" stroke="#384058" stroke-width="1"/>
-<text x="670" y="457" class="hex">3fa792</text>
+<rect x="244" y="448" width="20" height="20" rx="4" fill="#8ff2ff" stroke="#384058" stroke-width="1"/>
+<text x="270" y="457" class="hex">8ff2ff</text>
+<text x="270" y="472" class="ratio">16.0</text>
+<rect x="344" y="448" width="20" height="20" rx="4" fill="#5cecfd" stroke="#384058" stroke-width="1"/>
+<text x="370" y="457" class="hex">5cecfd</text>
+<text x="370" y="472" class="ratio">14.6</text>
+<rect x="444" y="448" width="20" height="20" rx="4" fill="#48dced" stroke="#384058" stroke-width="1"/>
+<text x="470" y="457" class="hex">48dced</text>
+<text x="470" y="472" class="ratio">12.5</text>
+<rect x="544" y="448" width="20" height="20" rx="4" fill="#02bbcc" stroke="#cad8ff" stroke-width="2"/>
+<text x="570" y="457" class="hex">02bbcc</text>
+<text x="570" y="472" class="ratio">8.8 ★</text>
+<rect x="644" y="448" width="20" height="20" rx="4" fill="#02a6b6" stroke="#384058" stroke-width="1"/>
+<text x="670" y="457" class="hex">02a6b6</text>
 <text x="670" y="472" class="ratio">7.0</text>
-<rect x="744" y="448" width="20" height="20" rx="4" fill="#308372" stroke="#384058" stroke-width="1"/>
-<text x="770" y="457" class="hex">308372</text>
+<rect x="744" y="448" width="20" height="20" rx="4" fill="#01828e" stroke="#384058" stroke-width="1"/>
+<text x="770" y="457" class="hex">01828e</text>
 <text x="770" y="472" class="ratio">4.5</text>
-<rect x="844" y="448" width="20" height="20" rx="4" fill="#236557" stroke="#384058" stroke-width="1"/>
-<text x="870" y="457" class="hex">236557</text>
+<rect x="844" y="448" width="20" height="20" rx="4" fill="#01656e" stroke="#384058" stroke-width="1"/>
+<text x="870" y="457" class="hex">01656e</text>
 <text x="870" y="472" class="ratio low">3.0</text>
-<rect x="944" y="448" width="20" height="20" rx="4" fill="#17493e" stroke="#384058" stroke-width="1"/>
-<text x="970" y="457" class="hex">17493e</text>
+<rect x="944" y="448" width="20" height="20" rx="4" fill="#00484f" stroke="#384058" stroke-width="1"/>
+<text x="970" y="457" class="hex">00484f</text>
 <text x="970" y="472" class="ratio low">2.0</text>
-<rect x="1044" y="448" width="20" height="20" rx="4" fill="#0e332c" stroke="#384058" stroke-width="1"/>
-<text x="1070" y="457" class="hex">0e332c</text>
+<rect x="1044" y="448" width="20" height="20" rx="4" fill="#003338" stroke="#384058" stroke-width="1"/>
+<text x="1070" y="457" class="hex">003338</text>
 <text x="1070" y="472" class="ratio low">1.5</text>
-<rect x="1144" y="448" width="20" height="20" rx="4" fill="#07241e" stroke="#384058" stroke-width="1"/>
-<text x="1170" y="457" class="hex">07241e</text>
+<rect x="1144" y="448" width="20" height="20" rx="4" fill="#002428" stroke="#384058" stroke-width="1"/>
+<text x="1170" y="457" class="hex">002428</text>
 <text x="1170" y="472" class="ratio low">1.3</text>
-<text x="24" y="513" class="name">SAPPHIRE</text>
-<rect x="144" y="492" width="20" height="20" rx="4" fill="#baf7ff" stroke="#384058" stroke-width="1"/>
-<text x="170" y="501" class="hex">baf7ff</text>
+<text x="24" y="513" class="name">SKY</text>
+<rect x="144" y="492" width="20" height="20" rx="4" fill="#d8f0ff" stroke="#384058" stroke-width="1"/>
+<text x="170" y="501" class="hex">d8f0ff</text>
 <text x="170" y="516" class="ratio">17.5</text>
-<rect x="244" y="492" width="20" height="20" rx="4" fill="#8ff2ff" stroke="#384058" stroke-width="1"/>
-<text x="270" y="501" class="hex">8ff2ff</text>
+<rect x="244" y="492" width="20" height="20" rx="4" fill="#c3e8ff" stroke="#384058" stroke-width="1"/>
+<text x="270" y="501" class="hex">c3e8ff</text>
 <text x="270" y="516" class="ratio">16.0</text>
-<rect x="344" y="492" width="20" height="20" rx="4" fill="#5cecfd" stroke="#384058" stroke-width="1"/>
-<text x="370" y="501" class="hex">5cecfd</text>
-<text x="370" y="516" class="ratio">14.6</text>
-<rect x="444" y="492" width="20" height="20" rx="4" fill="#48dced" stroke="#384058" stroke-width="1"/>
-<text x="470" y="501" class="hex">48dced</text>
-<text x="470" y="516" class="ratio">12.5</text>
-<rect x="544" y="492" width="20" height="20" rx="4" fill="#02bbcc" stroke="#cad8ff" stroke-width="2"/>
-<text x="570" y="501" class="hex">02bbcc</text>
-<text x="570" y="516" class="ratio">8.8 ★</text>
-<rect x="644" y="492" width="20" height="20" rx="4" fill="#02a6b6" stroke="#384058" stroke-width="1"/>
-<text x="670" y="501" class="hex">02a6b6</text>
-<text x="670" y="516" class="ratio">7.0</text>
-<rect x="744" y="492" width="20" height="20" rx="4" fill="#01828e" stroke="#384058" stroke-width="1"/>
-<text x="770" y="501" class="hex">01828e</text>
+<rect x="344" y="492" width="20" height="20" rx="4" fill="#addfff" stroke="#384058" stroke-width="1"/>
+<text x="370" y="501" class="hex">addfff</text>
+<text x="370" y="516" class="ratio">14.5</text>
+<rect x="444" y="492" width="20" height="20" rx="4" fill="#89d3ff" stroke="#384058" stroke-width="1"/>
+<text x="470" y="501" class="hex">89d3ff</text>
+<text x="470" y="516" class="ratio">12.6</text>
+<rect x="544" y="492" width="20" height="20" rx="4" fill="#4fc1ff" stroke="#cad8ff" stroke-width="2"/>
+<text x="570" y="501" class="hex">4fc1ff</text>
+<text x="570" y="516" class="ratio">10.2 ★</text>
+<rect x="644" y="492" width="20" height="20" rx="4" fill="#40a0d3" stroke="#384058" stroke-width="1"/>
+<text x="670" y="501" class="hex">40a0d3</text>
+<text x="670" y="516" class="ratio">7.1</text>
+<rect x="744" y="492" width="20" height="20" rx="4" fill="#307da6" stroke="#384058" stroke-width="1"/>
+<text x="770" y="501" class="hex">307da6</text>
 <text x="770" y="516" class="ratio">4.5</text>
-<rect x="844" y="492" width="20" height="20" rx="4" fill="#01656e" stroke="#384058" stroke-width="1"/>
-<text x="870" y="501" class="hex">01656e</text>
+<rect x="844" y="492" width="20" height="20" rx="4" fill="#236080" stroke="#384058" stroke-width="1"/>
+<text x="870" y="501" class="hex">236080</text>
 <text x="870" y="516" class="ratio low">3.0</text>
-<rect x="944" y="492" width="20" height="20" rx="4" fill="#00484f" stroke="#384058" stroke-width="1"/>
-<text x="970" y="501" class="hex">00484f</text>
+<rect x="944" y="492" width="20" height="20" rx="4" fill="#17455d" stroke="#384058" stroke-width="1"/>
+<text x="970" y="501" class="hex">17455d</text>
 <text x="970" y="516" class="ratio low">2.0</text>
-<rect x="1044" y="492" width="20" height="20" rx="4" fill="#003338" stroke="#384058" stroke-width="1"/>
-<text x="1070" y="501" class="hex">003338</text>
+<rect x="1044" y="492" width="20" height="20" rx="4" fill="#0e3143" stroke="#384058" stroke-width="1"/>
+<text x="1070" y="501" class="hex">0e3143</text>
 <text x="1070" y="516" class="ratio low">1.5</text>
-<rect x="1144" y="492" width="20" height="20" rx="4" fill="#002428" stroke="#384058" stroke-width="1"/>
-<text x="1170" y="501" class="hex">002428</text>
+<rect x="1144" y="492" width="20" height="20" rx="4" fill="#082230" stroke="#384058" stroke-width="1"/>
+<text x="1170" y="501" class="hex">082230</text>
 <text x="1170" y="516" class="ratio low">1.3</text>
-<text x="24" y="557" class="name">SKY</text>
-<rect x="144" y="536" width="20" height="20" rx="4" fill="#d8f0ff" stroke="#384058" stroke-width="1"/>
-<text x="170" y="545" class="hex">d8f0ff</text>
+<text x="24" y="557" class="name">BLUE</text>
+<rect x="144" y="536" width="20" height="20" rx="4" fill="#dcefff" stroke="#384058" stroke-width="1"/>
+<text x="170" y="545" class="hex">dcefff</text>
 <text x="170" y="560" class="ratio">17.5</text>
-<rect x="244" y="536" width="20" height="20" rx="4" fill="#c3e8ff" stroke="#384058" stroke-width="1"/>
-<text x="270" y="545" class="hex">c3e8ff</text>
+<rect x="244" y="536" width="20" height="20" rx="4" fill="#cbe6ff" stroke="#384058" stroke-width="1"/>
+<text x="270" y="545" class="hex">cbe6ff</text>
 <text x="270" y="560" class="ratio">16.0</text>
-<rect x="344" y="536" width="20" height="20" rx="4" fill="#addfff" stroke="#384058" stroke-width="1"/>
-<text x="370" y="545" class="hex">addfff</text>
+<rect x="344" y="536" width="20" height="20" rx="4" fill="#b6ddff" stroke="#384058" stroke-width="1"/>
+<text x="370" y="545" class="hex">b6ddff</text>
 <text x="370" y="560" class="ratio">14.5</text>
-<rect x="444" y="536" width="20" height="20" rx="4" fill="#89d3ff" stroke="#384058" stroke-width="1"/>
-<text x="470" y="545" class="hex">89d3ff</text>
+<rect x="444" y="536" width="20" height="20" rx="4" fill="#99d0ff" stroke="#384058" stroke-width="1"/>
+<text x="470" y="545" class="hex">99d0ff</text>
 <text x="470" y="560" class="ratio">12.6</text>
-<rect x="544" y="536" width="20" height="20" rx="4" fill="#4fc1ff" stroke="#cad8ff" stroke-width="2"/>
-<text x="570" y="545" class="hex">4fc1ff</text>
-<text x="570" y="560" class="ratio">10.2 ★</text>
-<rect x="644" y="536" width="20" height="20" rx="4" fill="#40a0d3" stroke="#384058" stroke-width="1"/>
-<text x="670" y="545" class="hex">40a0d3</text>
-<text x="670" y="560" class="ratio">7.1</text>
-<rect x="744" y="536" width="20" height="20" rx="4" fill="#307da6" stroke="#384058" stroke-width="1"/>
-<text x="770" y="545" class="hex">307da6</text>
+<rect x="544" y="536" width="20" height="20" rx="4" fill="#74bbf7" stroke="#384058" stroke-width="1"/>
+<text x="570" y="545" class="hex">74bbf7</text>
+<text x="570" y="560" class="ratio">10.0</text>
+<rect x="644" y="536" width="20" height="20" rx="4" fill="#569cd6" stroke="#cad8ff" stroke-width="2"/>
+<text x="670" y="545" class="hex">569cd6</text>
+<text x="670" y="560" class="ratio">7.0 ★</text>
+<rect x="744" y="536" width="20" height="20" rx="4" fill="#427aa9" stroke="#384058" stroke-width="1"/>
+<text x="770" y="545" class="hex">427aa9</text>
 <text x="770" y="560" class="ratio">4.5</text>
-<rect x="844" y="536" width="20" height="20" rx="4" fill="#236080" stroke="#384058" stroke-width="1"/>
-<text x="870" y="545" class="hex">236080</text>
+<rect x="844" y="536" width="20" height="20" rx="4" fill="#315e83" stroke="#384058" stroke-width="1"/>
+<text x="870" y="545" class="hex">315e83</text>
 <text x="870" y="560" class="ratio low">3.0</text>
-<rect x="944" y="536" width="20" height="20" rx="4" fill="#17455d" stroke="#384058" stroke-width="1"/>
-<text x="970" y="545" class="hex">17455d</text>
+<rect x="944" y="536" width="20" height="20" rx="4" fill="#22445f" stroke="#384058" stroke-width="1"/>
+<text x="970" y="545" class="hex">22445f</text>
 <text x="970" y="560" class="ratio low">2.0</text>
-<rect x="1044" y="536" width="20" height="20" rx="4" fill="#0e3143" stroke="#384058" stroke-width="1"/>
-<text x="1070" y="545" class="hex">0e3143</text>
+<rect x="1044" y="536" width="20" height="20" rx="4" fill="#163044" stroke="#384058" stroke-width="1"/>
+<text x="1070" y="545" class="hex">163044</text>
 <text x="1070" y="560" class="ratio low">1.5</text>
-<rect x="1144" y="536" width="20" height="20" rx="4" fill="#082230" stroke="#384058" stroke-width="1"/>
-<text x="1170" y="545" class="hex">082230</text>
+<rect x="1144" y="536" width="20" height="20" rx="4" fill="#0d2130" stroke="#384058" stroke-width="1"/>
+<text x="1170" y="545" class="hex">0d2130</text>
 <text x="1170" y="560" class="ratio low">1.3</text>
-<text x="24" y="601" class="name">BLUE</text>
-<rect x="144" y="580" width="20" height="20" rx="4" fill="#dcefff" stroke="#384058" stroke-width="1"/>
-<text x="170" y="589" class="hex">dcefff</text>
-<text x="170" y="604" class="ratio">17.5</text>
-<rect x="244" y="580" width="20" height="20" rx="4" fill="#cbe6ff" stroke="#384058" stroke-width="1"/>
-<text x="270" y="589" class="hex">cbe6ff</text>
+<text x="24" y="601" class="name">MAUVE</text>
+<rect x="144" y="580" width="20" height="20" rx="4" fill="#f6e8ff" stroke="#384058" stroke-width="1"/>
+<text x="170" y="589" class="hex">f6e8ff</text>
+<text x="170" y="604" class="ratio">17.6</text>
+<rect x="244" y="580" width="20" height="20" rx="4" fill="#f1dbff" stroke="#384058" stroke-width="1"/>
+<text x="270" y="589" class="hex">f1dbff</text>
 <text x="270" y="604" class="ratio">16.0</text>
-<rect x="344" y="580" width="20" height="20" rx="4" fill="#b6ddff" stroke="#384058" stroke-width="1"/>
-<text x="370" y="589" class="hex">b6ddff</text>
-<text x="370" y="604" class="ratio">14.5</text>
-<rect x="444" y="580" width="20" height="20" rx="4" fill="#99d0ff" stroke="#384058" stroke-width="1"/>
-<text x="470" y="589" class="hex">99d0ff</text>
+<rect x="344" y="580" width="20" height="20" rx="4" fill="#ecceff" stroke="#384058" stroke-width="1"/>
+<text x="370" y="589" class="hex">ecceff</text>
+<text x="370" y="604" class="ratio">14.6</text>
+<rect x="444" y="580" width="20" height="20" rx="4" fill="#e5baff" stroke="#384058" stroke-width="1"/>
+<text x="470" y="589" class="hex">e5baff</text>
 <text x="470" y="604" class="ratio">12.6</text>
-<rect x="544" y="580" width="20" height="20" rx="4" fill="#74bbf7" stroke="#384058" stroke-width="1"/>
-<text x="570" y="589" class="hex">74bbf7</text>
+<rect x="544" y="580" width="20" height="20" rx="4" fill="#db9cff" stroke="#384058" stroke-width="1"/>
+<text x="570" y="589" class="hex">db9cff</text>
 <text x="570" y="604" class="ratio">10.0</text>
-<rect x="644" y="580" width="20" height="20" rx="4" fill="#569cd6" stroke="#cad8ff" stroke-width="2"/>
-<text x="670" y="589" class="hex">569cd6</text>
-<text x="670" y="604" class="ratio">7.0 ★</text>
-<rect x="744" y="580" width="20" height="20" rx="4" fill="#427aa9" stroke="#384058" stroke-width="1"/>
-<text x="770" y="589" class="hex">427aa9</text>
+<rect x="644" y="580" width="20" height="20" rx="4" fill="#c175ea" stroke="#cad8ff" stroke-width="2"/>
+<text x="670" y="589" class="hex">c175ea</text>
+<text x="670" y="604" class="ratio">6.9 ★</text>
+<rect x="744" y="580" width="20" height="20" rx="4" fill="#995cba" stroke="#384058" stroke-width="1"/>
+<text x="770" y="589" class="hex">995cba</text>
 <text x="770" y="604" class="ratio">4.5</text>
-<rect x="844" y="580" width="20" height="20" rx="4" fill="#315e83" stroke="#384058" stroke-width="1"/>
-<text x="870" y="589" class="hex">315e83</text>
+<rect x="844" y="580" width="20" height="20" rx="4" fill="#774691" stroke="#384058" stroke-width="1"/>
+<text x="870" y="589" class="hex">774691</text>
 <text x="870" y="604" class="ratio low">3.0</text>
-<rect x="944" y="580" width="20" height="20" rx="4" fill="#22445f" stroke="#384058" stroke-width="1"/>
-<text x="970" y="589" class="hex">22445f</text>
+<rect x="944" y="580" width="20" height="20" rx="4" fill="#563169" stroke="#384058" stroke-width="1"/>
+<text x="970" y="589" class="hex">563169</text>
 <text x="970" y="604" class="ratio low">2.0</text>
-<rect x="1044" y="580" width="20" height="20" rx="4" fill="#163044" stroke="#384058" stroke-width="1"/>
-<text x="1070" y="589" class="hex">163044</text>
+<rect x="1044" y="580" width="20" height="20" rx="4" fill="#3d224c" stroke="#384058" stroke-width="1"/>
+<text x="1070" y="589" class="hex">3d224c</text>
 <text x="1070" y="604" class="ratio low">1.5</text>
-<rect x="1144" y="580" width="20" height="20" rx="4" fill="#0d2130" stroke="#384058" stroke-width="1"/>
-<text x="1170" y="589" class="hex">0d2130</text>
+<rect x="1144" y="580" width="20" height="20" rx="4" fill="#2c1637" stroke="#384058" stroke-width="1"/>
+<text x="1170" y="589" class="hex">2c1637</text>
 <text x="1170" y="604" class="ratio low">1.3</text>
-<text x="24" y="645" class="name">MAUVE</text>
-<rect x="144" y="624" width="20" height="20" rx="4" fill="#f6e8ff" stroke="#384058" stroke-width="1"/>
-<text x="170" y="633" class="hex">f6e8ff</text>
-<text x="170" y="648" class="ratio">17.6</text>
-<rect x="244" y="624" width="20" height="20" rx="4" fill="#f1dbff" stroke="#384058" stroke-width="1"/>
-<text x="270" y="633" class="hex">f1dbff</text>
-<text x="270" y="648" class="ratio">16.0</text>
-<rect x="344" y="624" width="20" height="20" rx="4" fill="#ecceff" stroke="#384058" stroke-width="1"/>
-<text x="370" y="633" class="hex">ecceff</text>
-<text x="370" y="648" class="ratio">14.6</text>
-<rect x="444" y="624" width="20" height="20" rx="4" fill="#e5baff" stroke="#384058" stroke-width="1"/>
-<text x="470" y="633" class="hex">e5baff</text>
-<text x="470" y="648" class="ratio">12.6</text>
-<rect x="544" y="624" width="20" height="20" rx="4" fill="#db9cff" stroke="#384058" stroke-width="1"/>
-<text x="570" y="633" class="hex">db9cff</text>
+<text x="24" y="645" class="name">PINK</text>
+<rect x="144" y="624" width="20" height="20" rx="4" fill="#ffe5fc" stroke="#384058" stroke-width="1"/>
+<text x="170" y="633" class="hex">ffe5fc</text>
+<text x="170" y="648" class="ratio">17.5</text>
+<rect x="244" y="624" width="20" height="20" rx="4" fill="#ffd7fb" stroke="#384058" stroke-width="1"/>
+<text x="270" y="633" class="hex">ffd7fb</text>
+<text x="270" y="648" class="ratio">16.1</text>
+<rect x="344" y="624" width="20" height="20" rx="4" fill="#ffc7fa" stroke="#384058" stroke-width="1"/>
+<text x="370" y="633" class="hex">ffc7fa</text>
+<text x="370" y="648" class="ratio">14.5</text>
+<rect x="444" y="624" width="20" height="20" rx="4" fill="#f7b4f1" stroke="#384058" stroke-width="1"/>
+<text x="470" y="633" class="hex">f7b4f1</text>
+<text x="470" y="648" class="ratio">12.5</text>
+<rect x="544" y="624" width="20" height="20" rx="4" fill="#e0a0db" stroke="#384058" stroke-width="1"/>
+<text x="570" y="633" class="hex">e0a0db</text>
 <text x="570" y="648" class="ratio">10.0</text>
-<rect x="644" y="624" width="20" height="20" rx="4" fill="#c175ea" stroke="#cad8ff" stroke-width="2"/>
-<text x="670" y="633" class="hex">c175ea</text>
-<text x="670" y="648" class="ratio">6.9 ★</text>
-<rect x="744" y="624" width="20" height="20" rx="4" fill="#995cba" stroke="#384058" stroke-width="1"/>
-<text x="770" y="633" class="hex">995cba</text>
+<rect x="644" y="624" width="20" height="20" rx="4" fill="#c586c0" stroke="#cad8ff" stroke-width="2"/>
+<text x="670" y="633" class="hex">c586c0</text>
+<text x="670" y="648" class="ratio">7.4 ★</text>
+<rect x="744" y="624" width="20" height="20" rx="4" fill="#976593" stroke="#384058" stroke-width="1"/>
+<text x="770" y="633" class="hex">976593</text>
 <text x="770" y="648" class="ratio">4.5</text>
-<rect x="844" y="624" width="20" height="20" rx="4" fill="#774691" stroke="#384058" stroke-width="1"/>
-<text x="870" y="633" class="hex">774691</text>
+<rect x="844" y="624" width="20" height="20" rx="4" fill="#744e71" stroke="#384058" stroke-width="1"/>
+<text x="870" y="633" class="hex">744e71</text>
 <text x="870" y="648" class="ratio low">3.0</text>
-<rect x="944" y="624" width="20" height="20" rx="4" fill="#563169" stroke="#384058" stroke-width="1"/>
-<text x="970" y="633" class="hex">563169</text>
+<rect x="944" y="624" width="20" height="20" rx="4" fill="#543751" stroke="#384058" stroke-width="1"/>
+<text x="970" y="633" class="hex">543751</text>
 <text x="970" y="648" class="ratio low">2.0</text>
-<rect x="1044" y="624" width="20" height="20" rx="4" fill="#3d224c" stroke="#384058" stroke-width="1"/>
-<text x="1070" y="633" class="hex">3d224c</text>
+<rect x="1044" y="624" width="20" height="20" rx="4" fill="#3c263a" stroke="#384058" stroke-width="1"/>
+<text x="1070" y="633" class="hex">3c263a</text>
 <text x="1070" y="648" class="ratio low">1.5</text>
-<rect x="1144" y="624" width="20" height="20" rx="4" fill="#2c1637" stroke="#384058" stroke-width="1"/>
-<text x="1170" y="633" class="hex">2c1637</text>
+<rect x="1144" y="624" width="20" height="20" rx="4" fill="#2a1a29" stroke="#384058" stroke-width="1"/>
+<text x="1170" y="633" class="hex">2a1a29</text>
 <text x="1170" y="648" class="ratio low">1.3</text>
-<text x="24" y="689" class="name">PINK</text>
-<rect x="144" y="668" width="20" height="20" rx="4" fill="#ffe5fc" stroke="#384058" stroke-width="1"/>
-<text x="170" y="677" class="hex">ffe5fc</text>
-<text x="170" y="692" class="ratio">17.5</text>
-<rect x="244" y="668" width="20" height="20" rx="4" fill="#ffd7fb" stroke="#384058" stroke-width="1"/>
-<text x="270" y="677" class="hex">ffd7fb</text>
-<text x="270" y="692" class="ratio">16.1</text>
-<rect x="344" y="668" width="20" height="20" rx="4" fill="#ffc7fa" stroke="#384058" stroke-width="1"/>
-<text x="370" y="677" class="hex">ffc7fa</text>
-<text x="370" y="692" class="ratio">14.5</text>
-<rect x="444" y="668" width="20" height="20" rx="4" fill="#f7b4f1" stroke="#384058" stroke-width="1"/>
-<text x="470" y="677" class="hex">f7b4f1</text>
-<text x="470" y="692" class="ratio">12.5</text>
-<rect x="544" y="668" width="20" height="20" rx="4" fill="#e0a0db" stroke="#384058" stroke-width="1"/>
-<text x="570" y="677" class="hex">e0a0db</text>
-<text x="570" y="692" class="ratio">10.0</text>
-<rect x="644" y="668" width="20" height="20" rx="4" fill="#c586c0" stroke="#cad8ff" stroke-width="2"/>
-<text x="670" y="677" class="hex">c586c0</text>
-<text x="670" y="692" class="ratio">7.4 ★</text>
-<rect x="744" y="668" width="20" height="20" rx="4" fill="#976593" stroke="#384058" stroke-width="1"/>
-<text x="770" y="677" class="hex">976593</text>
-<text x="770" y="692" class="ratio">4.5</text>
-<rect x="844" y="668" width="20" height="20" rx="4" fill="#744e71" stroke="#384058" stroke-width="1"/>
-<text x="870" y="677" class="hex">744e71</text>
-<text x="870" y="692" class="ratio low">3.0</text>
-<rect x="944" y="668" width="20" height="20" rx="4" fill="#543751" stroke="#384058" stroke-width="1"/>
-<text x="970" y="677" class="hex">543751</text>
-<text x="970" y="692" class="ratio low">2.0</text>
-<rect x="1044" y="668" width="20" height="20" rx="4" fill="#3c263a" stroke="#384058" stroke-width="1"/>
-<text x="1070" y="677" class="hex">3c263a</text>
-<text x="1070" y="692" class="ratio low">1.5</text>
-<rect x="1144" y="668" width="20" height="20" rx="4" fill="#2a1a29" stroke="#384058" stroke-width="1"/>
-<text x="1170" y="677" class="hex">2a1a29</text>
-<text x="1170" y="692" class="ratio low">1.3</text>
-<text x="24" y="740" class="note">600 and lighter: text (AA). 500 and lighter: High Contrast text (AAA). 700: borders (3:1). 800 and darker: backgrounds.</text>
+<text x="24" y="696" class="note">600 and lighter: text (AA). 500 and lighter: High Contrast text (AAA). 700: borders (3:1). 800 and darker: backgrounds.</text>
 </svg>
