@@ -26,7 +26,7 @@ Contrast ratios are measured against the OBSIDIAN background `#01030a`. WCAG AA 
 
   | Color | Bright | Contrast |
   |---|---|---|
-  | `RED_BRIGHT` | `#ee6885` | 6.8:1 |
+  | `RED_BRIGHT` | `#f16a87` | 7.0:1 |
   | `PEACH_BRIGHT` | `#f49f8f` | 10.0:1 |
   | `TUMBLEWEED_BRIGHT` | `#fdbea0` | 12.8:1 |
   | `YELLOW_BRIGHT` | `#ffeabd` | 17.4:1 |
@@ -37,9 +37,10 @@ Contrast ratios are measured against the OBSIDIAN background `#01030a`. WCAG AA 
   | `MAUVE_BRIGHT` | `#d893ff` | 9.4:1 |
   | `PINK_BRIGHT` | `#df9fda` | 9.9:1 |
   | `LAVENDER_BRIGHT` | `#e8ecfd` | 17.5:1 |
-  | `SLATE_BRIGHT` | `#6e7ca8` | 5.0:1 |
+  | `SLATE_BRIGHT` | `#8796c4` | 7.0:1 |
 
   - Each is the base color made lighter (OKLCH lightness +0.08). Two exceptions, because +0.08 would make them almost white: `YELLOW_BRIGHT` is only a little lighter (+0.02, `#ffeabd`), and `LAVENDER_BRIGHT` reuses the original `#e8ecfd`. Lavender is the terminal text color, chosen because pure white on black causes a halo around letters.
+  - Every bright color is at least 7:1. RED and SLATE were lifted further to reach it (lightness only).
   - The orange-yellow `#ffd370` that Bash uses for `$( )` brackets is `YELLOW_DEEP`.
 - **QUIET tier** for every color (`RED_QUIET`, `PEACH_QUIET`, ...): 35% of the base color mixed into OBSIDIAN, saved as a solid color.
   - Why: the new Lasik Dark Quiet variant dims quotes, line numbers and other punctuation further than WCAG allows. It's an opt-in variant for people who prefer less visual noise. The 35% recipe is the one the VS Code theme already used for dimmed JSON quotes, so the look stays the same.
@@ -47,7 +48,7 @@ Contrast ratios are measured against the OBSIDIAN background `#01030a`. WCAG AA 
   - Exception: `SLATE_QUIET` is `#2a324b` (1.6:1, the same value as `SLATE_DEEP`), kept as a dark surface color. The 35% rule would give `#161b2c` (1.2:1), too close to the background to see.
 - **Five new colors:** `APRICOT` `#fac29a`, `ROSE` `#fc7e9b`, `SKY` `#4fc1ff`, `PERIWINKLE` `#a8bcfc` and `SILVER` `#bbbbbb`, with every tier.
   - Why: the VS Code theme already used these colors (for types, parameters, constants, UI accents and punctuation), but they were hard-coded instead of coming from the palette. Now every theme color can come from one place.
-  - Their MUTED colors keep the hue and lightness and take 0.56× the chroma, the median of the hand-picked muted colors (0.27× GREEN to 0.69× BLUE). SILVER is a gray, so it has no MUTED tier.
+  - Their MUTED colors keep the hue and lightness and take 0.564× the chroma, the median of the hand-picked muted colors (0.27× GREEN to 0.69× BLUE). SILVER is a gray, so it has no MUTED tier.
 - **Derived DEEP colors** for the colors that had none: `LAVENDER_DEEP` `#b6c1ea`, `APRICOT_DEEP` `#eca570`, `ROSE_DEEP` `#f54f7f`, `SKY_DEEP` `#09a9ec`, `PERIWINKLE_DEEP` `#8aa2f4`, `SILVER_DEEP` `#a3a3a3`. They follow the median of the 8 original deep colors: OKLCH lightness −0.076 and 1.31× the chroma.
 - A comment at the top of `palette.toml` that explains the five tiers.
 - README section "How the tiers are made": the color models, formulas, ratios and exceptions behind every calculated color, and which colors were hand-picked.

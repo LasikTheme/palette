@@ -38,12 +38,12 @@ When a calculated color is too colorful for a normal screen (outside sRGB), its 
 
 | Tier | How it's made | Hand-picked range | Formula for new colors |
 |---|---|---|---|
-| **MUTED** | same lightness, less colorful | chroma 0.27× (GREEN) to 0.69× (BLUE) | `L` same, `C × 0.556`, `H` same |
+| **MUTED** | same lightness, less colorful | chroma 0.27× (GREEN) to 0.69× (BLUE) | `L` same, `C × 0.564`, `H` same |
 | **DEEP** | darker and more colorful | 8 colors: `L` −0.04 to −0.08, chroma 1.05× to 1.49× | `L − 0.076`, `C × 1.31`, `H` same |
 | **BRIGHT** | lighter | none (all calculated) | `L + 0.08` (at most 0.97), `C` same, `H` same |
 | **QUIET** | mixed into the background | none (all calculated) | for each of R, G, B: `0.35 × color + 0.65 × OBSIDIAN` |
 
-- **The numbers come from the hand-picked colors.** 0.556 is the median chroma ratio of 11 hand-picked muted colors (SLATE is left out: its muted color was made lighter in May 2026, not less colorful). −0.076 and 1.31 are the medians of the 8 hand-picked deep colors that are darker *and* more colorful (RED, PEACH, TUMBLEWEED, YELLOW, GREEN, BLUE, MAUVE, PINK). TEAL, SAPPHIRE and SLATE deep are darker but less colorful, so they were left out of the median.
+- **The numbers come from the hand-picked colors.** 0.564 is the median chroma ratio of 11 hand-picked muted colors (SLATE is left out: its muted color was made lighter in May 2026, not less colorful). −0.076 and 1.31 are the medians of the 8 hand-picked deep colors that are darker *and* more colorful (RED, PEACH, TUMBLEWEED, YELLOW, GREEN, BLUE, MAUVE, PINK). TEAL, SAPPHIRE and SLATE deep are darker but less colorful, so they were left out of the median.
 - **QUIET's 35%** is the opacity the VS Code theme already used for dimmed JSON quotes. Mixing into the background (instead of making the color see-through) gives one solid color that looks the same everywhere.
 - **Contrast** is the WCAG 2 formula: `(L1 + 0.05) / (L2 + 0.05)`, where L1 and L2 are the relative luminance of the lighter and the darker color. It goes from 1:1 to 21:1.
 
@@ -63,6 +63,12 @@ When a calculated color is too colorful for a normal screen (outside sRGB), its 
 - **`LAVENDER_BRIGHT`** keeps the hand-picked `#e8ecfd`. Lavender is the terminal text color, and anything lighter gets close to pure white, which causes a halo around letters on a dark background.
 - **`SLATE_BRIGHT`** is `SLATE_MUTED` made lighter (only `L` goes up) until it reaches 5.0:1. Bright black is used for shell suggestions and git hints, so it has to be readable.
 - **`SLATE_QUIET`** is `#2a324b` (the hand-picked dark slate) instead of the 35% mix, which would be `#161b2c` (1.2:1), too close to the background to see.
+
+## Known gaps
+
+Colors the themes need but the palette doesn't have yet. Until they're added, the themes use the closest palette color or the program's own default.
+
+- **Faint background tints, fainter than QUIET.** Used for backgrounds that sit behind text, such as whole diff lines (added, removed, dimmed). QUIET is a 35% mix, which is right for word-level highlights but too strong for whole lines; they need about 12–22%, so the word highlights still stand out. For now: the Claude Code theme uses Claude Code's own diff line colors.
 
 ## Update the image
 

@@ -28,9 +28,9 @@
 <rect x="544" y="96" width="32" height="32" rx="6" fill="#bb3050" stroke="#3c476c"/>
 <text x="586" y="110" class="hex">#bb3050</text>
 <text x="586" y="126" class="ratio">5.8:1</text>
-<rect x="734" y="96" width="32" height="32" rx="6" fill="#ee6885" stroke="#3c476c"/>
-<text x="776" y="110" class="hex">#ee6885</text>
-<text x="776" y="126" class="ratio low">3.0:1 low</text>
+<rect x="734" y="96" width="32" height="32" rx="6" fill="#f16a87" stroke="#3c476c"/>
+<text x="776" y="110" class="hex">#f16a87</text>
+<text x="776" y="126" class="ratio low">2.9:1 low</text>
 <rect x="924" y="96" width="32" height="32" rx="6" fill="#4a1d2d" stroke="#3c476c"/>
 <text x="966" y="110" class="hex">#4a1d2d</text>
 <text x="966" y="126" class="ratio">14.0:1</text>
@@ -204,9 +204,9 @@
 <rect x="544" y="624" width="32" height="32" rx="6" fill="#2a324b" stroke="#3c476c"/>
 <text x="586" y="638" class="hex">#2a324b</text>
 <text x="586" y="654" class="ratio">12.7:1</text>
-<rect x="734" y="624" width="32" height="32" rx="6" fill="#6e7ca8" stroke="#3c476c"/>
-<text x="776" y="638" class="hex">#6e7ca8</text>
-<text x="776" y="654" class="ratio low">4.1:1 low</text>
+<rect x="734" y="624" width="32" height="32" rx="6" fill="#8796c4" stroke="#3c476c"/>
+<text x="776" y="638" class="hex">#8796c4</text>
+<text x="776" y="654" class="ratio low">2.9:1 low</text>
 <rect x="924" y="624" width="32" height="32" rx="6" fill="#2a324b" stroke="#3c476c"/>
 <text x="966" y="638" class="hex">#2a324b</text>
 <text x="966" y="654" class="ratio">12.7:1</text>

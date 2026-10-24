@@ -21,7 +21,7 @@
 # SKY, PERIWINKLE and SILVER had none, so theirs follow the median of the originals:
 # lightness -0.076 and 1.31x the chroma (in OKLCH).
 # MUTED colors of APRICOT, ROSE, SKY and PERIWINKLE keep the hue and lightness and take
-# 0.56x the chroma (the median of the hand-picked ones). SILVER is a gray, so no MUTED tier.
+# 0.564x the chroma (the median of the hand-picked ones). SILVER is a gray, so no MUTED tier.
 
 APRICOT           = "#fac29a"
 APRICOT_BRIGHT    = "#ffe4d1"
@@ -65,7 +65,7 @@ PINK_DEEP         = "#b564ae"
 PINK_MUTED        = "#b398b1"
 PINK_QUIET        = "#46314a"
 RED               = "#d24e6d"
-RED_BRIGHT        = "#ee6885"
+RED_BRIGHT        = "#f16a87"  # generated: RED lifted to 7:1 (OKLCH lightness only)
 RED_DEEP          = "#bb3050"
 RED_MUTED         = "#bb6579"
 RED_QUIET         = "#4a1d2d"
@@ -89,7 +89,7 @@ SKY_DEEP          = "#09a9ec"
 SKY_MUTED         = "#85bddf"
 SKY_QUIET         = "#1c4660"
 SLATE             = "#3c476c"
-SLATE_BRIGHT      = "#6e7ca8"
+SLATE_BRIGHT      = "#8796c4"  # generated: SLATE_MUTED lifted to 7:1 (OKLCH lightness only)
 SLATE_DEEP        = "#2a324b"
 SLATE_MUTED       = "#6A78A4"
 SLATE_QUIET       = "#2a324b"
