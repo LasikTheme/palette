@@ -14,19 +14,21 @@ const PALETTE_FILE = "palette.toml"
 // palette.toml only has lines like `RED_MUTED = "#bb6579"`, so a regex is enough (no TOML library)
 const palette: Record<string, string> = {}
 for (const line of (await Deno.readTextFile(PALETTE_FILE)).split("\n")) {
-  const match = line.match(/^([A-Z_]+)\s*=\s*"(#[0-9a-fA-F]{6})"/)
+  const match = line.match(/^([A-Z0-9_]+)\s*=\s*"(#[0-9a-fA-F]{6})"/)
   if (match) palette[match[1]] = match[2].toLowerCase()
 }
 
 // Lasik Light High Contrast editor background. The UI around the editor uses grays.
 const LIGHT_BACKGROUND = "#ffffff"
-const TIERS = ["_MUTED", "", "_DEEP", "_BRIGHT", "_QUIET"] // column order
-const TIER_LABELS = ["Muted", "Base", "Deep", "Bright", "Quiet"]
-// base color names, in rainbow order, then the neutrals and the 5 colors added later
-const COLORS = [
-  "RED", "PEACH", "TUMBLEWEED", "YELLOW", "GREEN", "TEAL", "SAPPHIRE", "BLUE", "MAUVE", "PINK",
-  "LAVENDER", "SLATE", "APRICOT", "ROSE", "SKY", "PERIWINKLE", "SILVER",
-]
+// the scale: columns are the steps, rows the hues (NEUTRAL first; then rainbow order)
+const STEPS = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950]
+const COLORS = ["NEUTRAL", "RED", "ROSE", "PEACH", "TUMBLEWEED", "APRICOT", "YELLOW", "GREEN", "TEAL", "SAPPHIRE", "SKY", "BLUE", "MAUVE", "PINK"]
+// the hand-picked base color of each hue, marked in the image (palette.toml notes "hand-picked")
+const handPicked = new Set<string>()
+for (const line of (await Deno.readTextFile(PALETTE_FILE)).split("\n")) {
+  const match = line.match(/^([A-Z]+_\d+)\s*=.*hand-picked/)
+  if (match) handPicked.add(match[1])
+}
 
 // WCAG contrast ratio: (lighter luminance + 0.05) / (darker luminance + 0.05), from 1 to 21
 function luminance(hex: string): number {
@@ -41,13 +43,13 @@ function contrast(a: string, b: string): number {
 }
 
 // layout in pixels
-const NAME_WIDTH = 140
-const CELL_WIDTH = 190
-const ROW_HEIGHT = 48
-const SWATCH = 32
+const NAME_WIDTH = 120
+const CELL_WIDTH = 100
+const ROW_HEIGHT = 44
+const SWATCH = 20
 const TOP = 96 // room for the title and the column headings
 const PADDING = 24
-const width = PADDING * 2 + NAME_WIDTH + CELL_WIDTH * TIERS.length
+const width = PADDING * 2 + NAME_WIDTH + CELL_WIDTH * STEPS.length
 const height = TOP + ROW_HEIGHT * COLORS.length + PADDING + 28
 
 interface Look {
@@ -65,38 +67,38 @@ function renderSvg(look: Look): string {
   COLORS.forEach((name, row) => {
     const y = TOP + row * ROW_HEIGHT
     cells += `<text x="${PADDING}" y="${y + 21}" class="name">${name}</text>\n`
-    TIERS.forEach((tier, column) => {
-      const hex = palette[name + tier]
-      if (!hex) return // SILVER has no MUTED tier
+    STEPS.forEach((step, column) => {
+      const key = `${name}_${step}`, hex = palette[key]
+      if (!hex) return
       const x = PADDING + NAME_WIDTH + column * CELL_WIDTH
       const ratio = contrast(hex, look.background)
       const low = ratio < 4.5
-      cells += `<rect x="${x}" y="${y}" width="${SWATCH}" height="${SWATCH}" rx="6" fill="${hex}" stroke="${palette.SLATE}"/>\n`
-      cells += `<text x="${x + SWATCH + 10}" y="${y + 14}" class="hex">${hex}</text>\n`
-      cells += `<text x="${x + SWATCH + 10}" y="${y + 30}" class="ratio${low ? " low" : ""}">` +
-        `${ratio.toFixed(1)}:1${low ? " low" : ""}</text>\n`
+      // the hand-picked color gets an outline in the text color
+      cells += `<rect x="${x}" y="${y}" width="${SWATCH}" height="${SWATCH}" rx="4" fill="${hex}" stroke="${handPicked.has(key) ? look.text : palette.NEUTRAL_800}" stroke-width="${handPicked.has(key) ? 2 : 1}"/>\n`
+      cells += `<text x="${x + SWATCH + 6}" y="${y + 9}" class="hex">${hex.slice(1)}</text>\n`
+      cells += `<text x="${x + SWATCH + 6}" y="${y + 24}" class="ratio${low ? " low" : ""}">${ratio.toFixed(1)}${handPicked.has(key) ? " ★" : ""}</text>\n`
     })
   })
 
-  const headings = TIER_LABELS.map((label, column) =>
-    `<text x="${PADDING + NAME_WIDTH + column * CELL_WIDTH}" y="${TOP - 16}" class="heading">${label}</text>`
+  const headings = STEPS.map((step, column) =>
+    `<text x="${PADDING + NAME_WIDTH + column * CELL_WIDTH}" y="${TOP - 16}" class="heading">${step}</text>`
   ).join("\n")
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc">
 <title id="title">Lasik palette on ${look.backgroundName}</title>
-<desc id="desc">Every Lasik color in five tiers (muted, base, deep, bright, quiet) with its hex value and its contrast ratio against the ${look.backgroundName} background ${look.background}.</desc>
+<desc id="desc">The Lasik scale: every hue in steps 50 (lightest) to 950 (darkest), with each color's hex value and its contrast ratio against the ${look.backgroundName} background ${look.background}. A star marks each hue's hand-picked base color.</desc>
 <style>
   text { font-family: ui-monospace, "JetBrains Mono", "Fira Code", Menlo, monospace; fill: ${look.text}; }
   .title { font-size: 22px; font-weight: 700; }
   .heading { font-size: 14px; font-weight: 700; }
   .name { font-size: 14px; font-weight: 700; }
-  .hex { font-size: 13px; }
-  .ratio, .note { font-size: 12px; fill: ${look.mutedText}; }
+  .hex { font-size: 12px; }
+  .ratio, .note { font-size: 11px; fill: ${look.mutedText}; }
   .low { fill: ${look.low}; } /* a CSS class, because CSS would override a fill="" attribute */
 </style>
 <rect width="100%" height="100%" rx="12" fill="${look.background}"/>
 <text x="${PADDING}" y="40" class="title">Lasik palette</text>
-<text x="${PADDING + 190}" y="40" class="note">contrast against ${look.backgroundName} ${look.background} · "low" = below 4.5:1 (WCAG AA for text)</text>
+<text x="${PADDING + 190}" y="40" class="note">contrast against ${look.backgroundName} ${look.background} · red = below 4.5:1 (WCAG AA for text) · ★ hand-picked</text>
 ${headings}
 ${cells}<text x="${PADDING}" y="${height - PADDING}" class="note">${look.note}</text>
 </svg>
@@ -108,10 +110,10 @@ const LOOKS: Look[] = [
     file: "screenshots/palette.svg",
     background: palette.OBSIDIAN,
     backgroundName: "OBSIDIAN",
-    text: palette.LAVENDER_MUTED, // 13.7:1 on OBSIDIAN
-    mutedText: palette.SLATE_MUTED, // 4.7:1
-    low: palette.RED_MUTED,
-    note: "Quiet colors are below WCAG on purpose: only the Lasik Dark Quiet variant uses them.",
+    text: palette.NEUTRAL_200, // 14.5:1 on OBSIDIAN
+    mutedText: palette.NEUTRAL_500, // 7:1
+    low: palette.RED_400,
+    note: "600 and lighter: text (AA). 500 and lighter: High Contrast text (AAA). 700: borders (3:1). 800 and darker: backgrounds.",
   },
   {
     file: "screenshots/palette-light.svg",
@@ -120,7 +122,7 @@ const LOOKS: Look[] = [
     text: "#0d1120", // the Light High Contrast text color, 18.8:1 on white
     mutedText: "#3b4566", // 9.4:1
     low: "#af013f", // vivid red, 7.2:1
-    note: "These are the dark-theme colors. Lasik Light High Contrast uses vivid, darker versions of the DEEP colors (7:1 or more).",
+    note: "These are the dark-theme colors. Lasik Light High Contrast (paused) would use darker, vivid steps (7:1 or more on white).",
   },
 ]
 
@@ -128,6 +130,4 @@ for (const look of LOOKS) {
   await Deno.writeTextFile(look.file, renderSvg(look))
   console.log(`wrote ${look.file}: ${Object.keys(palette).length} colors, ${width}x${height}px`)
 }
-// expected output:
-// wrote screenshots/palette.svg: 86 colors, 1138x964px
-// wrote screenshots/palette-light.svg: 86 colors, 1138x964px
+
