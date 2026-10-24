@@ -1,6 +1,6 @@
 # lasik palette
 
-The colors behind the Lasik themes for [VS Code](https://github.com/aamnah/lasik-vscode-theme) and [Konsole](https://github.com/aamnah/lasik-konsole-theme). Lasik is a dark theme made for sensitive eyes: comfortable for reading a lot of text, with good contrast.
+The colors behind the Lasik themes for [VS Code](https://github.com/aamnah/lasik-vscode-theme) and [Konsole](https://github.com/LasikTheme/konsole). Lasik is a dark theme made for sensitive eyes: comfortable for reading a lot of text, with good contrast.
 
 ![Every Lasik color in five tiers (muted, base, deep, bright, quiet) with hex values and contrast ratios](./screenshots/palette.svg)
 
