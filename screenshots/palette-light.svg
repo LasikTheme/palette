@@ -1,0 +1,291 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1138" height="964" viewBox="0 0 1138 964" role="img" aria-labelledby="title desc">
+<title id="title">Lasik palette on white</title>
+<desc id="desc">Every Lasik color in five tiers (muted, base, deep, bright, quiet) with its hex value and its contrast ratio against the white background #ffffff.</desc>
+<style>
+  text { font-family: ui-monospace, "JetBrains Mono", "Fira Code", Menlo, monospace; fill: #0d1120; }
+  .title { font-size: 22px; font-weight: 700; }
+  .heading { font-size: 14px; font-weight: 700; }
+  .name { font-size: 14px; font-weight: 700; }
+  .hex { font-size: 13px; }
+  .ratio, .note { font-size: 12px; fill: #3b4566; }
+  .low { fill: #af013f; } /* a CSS class, because CSS would override a fill="" attribute */
+</style>
+<rect width="100%" height="100%" rx="12" fill="#ffffff"/>
+<text x="24" y="40" class="title">Lasik palette</text>
+<text x="214" y="40" class="note">contrast against white #ffffff · "low" = below 4.5:1 (WCAG AA for text)</text>
+<text x="164" y="80" class="heading">Muted</text>
+<text x="354" y="80" class="heading">Base</text>
+<text x="544" y="80" class="heading">Deep</text>
+<text x="734" y="80" class="heading">Bright</text>
+<text x="924" y="80" class="heading">Quiet</text>
+<text x="24" y="117" class="name">RED</text>
+<rect x="164" y="96" width="32" height="32" rx="6" fill="#bb6579" stroke="#3c476c"/>
+<text x="206" y="110" class="hex">#bb6579</text>
+<text x="206" y="126" class="ratio low">4.0:1 low</text>
+<rect x="354" y="96" width="32" height="32" rx="6" fill="#d24e6d" stroke="#3c476c"/>
+<text x="396" y="110" class="hex">#d24e6d</text>
+<text x="396" y="126" class="ratio low">4.2:1 low</text>
+<rect x="544" y="96" width="32" height="32" rx="6" fill="#bb3050" stroke="#3c476c"/>
+<text x="586" y="110" class="hex">#bb3050</text>
+<text x="586" y="126" class="ratio">5.8:1</text>
+<rect x="734" y="96" width="32" height="32" rx="6" fill="#ee6885" stroke="#3c476c"/>
+<text x="776" y="110" class="hex">#ee6885</text>
+<text x="776" y="126" class="ratio low">3.0:1 low</text>
+<rect x="924" y="96" width="32" height="32" rx="6" fill="#4a1d2d" stroke="#3c476c"/>
+<text x="966" y="110" class="hex">#4a1d2d</text>
+<text x="966" y="126" class="ratio">14.0:1</text>
+<text x="24" y="165" class="name">PEACH</text>
+<rect x="164" y="144" width="32" height="32" rx="6" fill="#c79289" stroke="#3c476c"/>
+<text x="206" y="158" class="hex">#c79289</text>
+<text x="206" y="174" class="ratio low">2.7:1 low</text>
+<rect x="354" y="144" width="32" height="32" rx="6" fill="#d98677" stroke="#3c476c"/>
+<text x="396" y="158" class="hex">#d98677</text>
+<text x="396" y="174" class="ratio low">2.8:1 low</text>
+<rect x="544" y="144" width="32" height="32" rx="6" fill="#ce6350" stroke="#3c476c"/>
+<text x="586" y="158" class="hex">#ce6350</text>
+<text x="586" y="174" class="ratio low">3.8:1 low</text>
+<rect x="734" y="144" width="32" height="32" rx="6" fill="#f49f8f" stroke="#3c476c"/>
+<text x="776" y="158" class="hex">#f49f8f</text>
+<text x="776" y="174" class="ratio low">2.1:1 low</text>
+<rect x="924" y="144" width="32" height="32" rx="6" fill="#4d3130" stroke="#3c476c"/>
+<text x="966" y="158" class="hex">#4d3130</text>
+<text x="966" y="174" class="ratio">11.7:1</text>
+<text x="24" y="213" class="name">TUMBLEWEED</text>
+<rect x="164" y="192" width="32" height="32" rx="6" fill="#d3aa96" stroke="#3c476c"/>
+<text x="206" y="206" class="hex">#d3aa96</text>
+<text x="206" y="222" class="ratio low">2.1:1 low</text>
+<rect x="354" y="192" width="32" height="32" rx="6" fill="#e2a587" stroke="#3c476c"/>
+<text x="396" y="206" class="hex">#e2a587</text>
+<text x="396" y="222" class="ratio low">2.1:1 low</text>
+<rect x="544" y="192" width="32" height="32" rx="6" fill="#d8875f" stroke="#3c476c"/>
+<text x="586" y="206" class="hex">#d8875f</text>
+<text x="586" y="222" class="ratio low">2.8:1 low</text>
+<rect x="734" y="192" width="32" height="32" rx="6" fill="#fdbea0" stroke="#3c476c"/>
+<text x="776" y="206" class="hex">#fdbea0</text>
+<text x="776" y="222" class="ratio low">1.6:1 low</text>
+<rect x="924" y="192" width="32" height="32" rx="6" fill="#503c36" stroke="#3c476c"/>
+<text x="966" y="206" class="hex">#503c36</text>
+<text x="966" y="222" class="ratio">10.3:1</text>
+<text x="24" y="261" class="name">YELLOW</text>
+<rect x="164" y="240" width="32" height="32" rx="6" fill="#e3d8bf" stroke="#3c476c"/>
+<text x="206" y="254" class="hex">#e3d8bf</text>
+<text x="206" y="270" class="ratio low">1.4:1 low</text>
+<rect x="354" y="240" width="32" height="32" rx="6" fill="#ffe2a3" stroke="#3c476c"/>
+<text x="396" y="254" class="hex">#ffe2a3</text>
+<text x="396" y="270" class="ratio low">1.3:1 low</text>
+<rect x="544" y="240" width="32" height="32" rx="6" fill="#ffd370" stroke="#3c476c"/>
+<text x="586" y="254" class="hex">#ffd370</text>
+<text x="586" y="270" class="ratio low">1.4:1 low</text>
+<rect x="734" y="240" width="32" height="32" rx="6" fill="#ffeabd" stroke="#3c476c"/>
+<text x="776" y="254" class="hex">#ffeabd</text>
+<text x="776" y="270" class="ratio low">1.2:1 low</text>
+<rect x="924" y="240" width="32" height="32" rx="6" fill="#5a5140" stroke="#3c476c"/>
+<text x="966" y="254" class="hex">#5a5140</text>
+<text x="966" y="270" class="ratio">7.8:1</text>
+<text x="24" y="309" class="name">GREEN</text>
+<rect x="164" y="288" width="32" height="32" rx="6" fill="#a7b0a2" stroke="#3c476c"/>
+<text x="206" y="302" class="hex">#a7b0a2</text>
+<text x="206" y="318" class="ratio low">2.2:1 low</text>
+<rect x="354" y="288" width="32" height="32" rx="6" fill="#a0c38f" stroke="#3c476c"/>
+<text x="396" y="302" class="hex">#a0c38f</text>
+<text x="396" y="318" class="ratio low">2.0:1 low</text>
+<rect x="544" y="288" width="32" height="32" rx="6" fill="#81b668" stroke="#3c476c"/>
+<text x="586" y="302" class="hex">#81b668</text>
+<text x="586" y="318" class="ratio low">2.4:1 low</text>
+<rect x="734" y="288" width="32" height="32" rx="6" fill="#b9dda8" stroke="#3c476c"/>
+<text x="776" y="302" class="hex">#b9dda8</text>
+<text x="776" y="318" class="ratio low">1.5:1 low</text>
+<rect x="924" y="288" width="32" height="32" rx="6" fill="#394639" stroke="#3c476c"/>
+<text x="966" y="302" class="hex">#394639</text>
+<text x="966" y="318" class="ratio">10.0:1</text>
+<text x="24" y="357" class="name">TEAL</text>
+<rect x="164" y="336" width="32" height="32" rx="6" fill="#71a69b" stroke="#3c476c"/>
+<text x="206" y="350" class="hex">#71a69b</text>
+<text x="206" y="366" class="ratio low">2.8:1 low</text>
+<rect x="354" y="336" width="32" height="32" rx="6" fill="#4ec9b0" stroke="#3c476c"/>
+<text x="396" y="350" class="hex">#4ec9b0</text>
+<text x="396" y="366" class="ratio low">2.0:1 low</text>
+<rect x="544" y="336" width="32" height="32" rx="6" fill="#2a8975" stroke="#3c476c"/>
+<text x="586" y="350" class="hex">#2a8975</text>
+<text x="586" y="366" class="ratio low">4.3:1 low</text>
+<rect x="734" y="336" width="32" height="32" rx="6" fill="#6be3c9" stroke="#3c476c"/>
+<text x="776" y="350" class="hex">#6be3c9</text>
+<text x="776" y="366" class="ratio low">1.6:1 low</text>
+<rect x="924" y="336" width="32" height="32" rx="6" fill="#1c4844" stroke="#3c476c"/>
+<text x="966" y="350" class="hex">#1c4844</text>
+<text x="966" y="366" class="ratio">10.2:1</text>
+<text x="24" y="405" class="name">SAPPHIRE</text>
+<rect x="164" y="384" width="32" height="32" rx="6" fill="#5c9da3" stroke="#3c476c"/>
+<text x="206" y="398" class="hex">#5c9da3</text>
+<text x="206" y="414" class="ratio low">3.1:1 low</text>
+<rect x="354" y="384" width="32" height="32" rx="6" fill="#02bbcc" stroke="#3c476c"/>
+<text x="396" y="398" class="hex">#02bbcc</text>
+<text x="396" y="414" class="ratio low">2.3:1 low</text>
+<rect x="544" y="384" width="32" height="32" rx="6" fill="#01747e" stroke="#3c476c"/>
+<text x="586" y="398" class="hex">#01747e</text>
+<text x="586" y="414" class="ratio">5.5:1</text>
+<rect x="734" y="384" width="32" height="32" rx="6" fill="#3fd5e6" stroke="#3c476c"/>
+<text x="776" y="398" class="hex">#3fd5e6</text>
+<text x="776" y="414" class="ratio low">1.8:1 low</text>
+<rect x="924" y="384" width="32" height="32" rx="6" fill="#01434e" stroke="#3c476c"/>
+<text x="966" y="398" class="hex">#01434e</text>
+<text x="966" y="414" class="ratio">11.0:1</text>
+<text x="24" y="453" class="name">BLUE</text>
+<rect x="164" y="432" width="32" height="32" rx="6" fill="#6b9ac1" stroke="#3c476c"/>
+<text x="206" y="446" class="hex">#6b9ac1</text>
+<text x="206" y="462" class="ratio low">3.0:1 low</text>
+<rect x="354" y="432" width="32" height="32" rx="6" fill="#569cd6" stroke="#3c476c"/>
+<text x="396" y="446" class="hex">#569cd6</text>
+<text x="396" y="462" class="ratio low">2.9:1 low</text>
+<rect x="544" y="432" width="32" height="32" rx="6" fill="#3184c9" stroke="#3c476c"/>
+<text x="586" y="446" class="hex">#3184c9</text>
+<text x="586" y="462" class="ratio low">4.0:1 low</text>
+<rect x="734" y="432" width="32" height="32" rx="6" fill="#6fb5f1" stroke="#3c476c"/>
+<text x="776" y="446" class="hex">#6fb5f1</text>
+<text x="776" y="462" class="ratio low">2.2:1 low</text>
+<rect x="924" y="432" width="32" height="32" rx="6" fill="#1f3951" stroke="#3c476c"/>
+<text x="966" y="446" class="hex">#1f3951</text>
+<text x="966" y="462" class="ratio">11.9:1</text>
+<text x="24" y="501" class="name">MAUVE</text>
+<rect x="164" y="480" width="32" height="32" rx="6" fill="#ba8dd3" stroke="#3c476c"/>
+<text x="206" y="494" class="hex">#ba8dd3</text>
+<text x="206" y="510" class="ratio low">2.7:1 low</text>
+<rect x="354" y="480" width="32" height="32" rx="6" fill="#c175ea" stroke="#3c476c"/>
+<text x="396" y="494" class="hex">#c175ea</text>
+<text x="396" y="510" class="ratio low">3.0:1 low</text>
+<rect x="544" y="480" width="32" height="32" rx="6" fill="#ae49e4" stroke="#3c476c"/>
+<text x="586" y="494" class="hex">#ae49e4</text>
+<text x="586" y="510" class="ratio low">4.3:1 low</text>
+<rect x="734" y="480" width="32" height="32" rx="6" fill="#d893ff" stroke="#3c476c"/>
+<text x="776" y="494" class="hex">#d893ff</text>
+<text x="776" y="510" class="ratio low">2.2:1 low</text>
+<rect x="924" y="480" width="32" height="32" rx="6" fill="#442b58" stroke="#3c476c"/>
+<text x="966" y="494" class="hex">#442b58</text>
+<text x="966" y="510" class="ratio">12.1:1</text>
+<text x="24" y="549" class="name">PINK</text>
+<rect x="164" y="528" width="32" height="32" rx="6" fill="#b398b1" stroke="#3c476c"/>
+<text x="206" y="542" class="hex">#b398b1</text>
+<text x="206" y="558" class="ratio low">2.6:1 low</text>
+<rect x="354" y="528" width="32" height="32" rx="6" fill="#c586c0" stroke="#3c476c"/>
+<text x="396" y="542" class="hex">#c586c0</text>
+<text x="396" y="558" class="ratio low">2.8:1 low</text>
+<rect x="544" y="528" width="32" height="32" rx="6" fill="#b564ae" stroke="#3c476c"/>
+<text x="586" y="542" class="hex">#b564ae</text>
+<text x="586" y="558" class="ratio low">3.9:1 low</text>
+<rect x="734" y="528" width="32" height="32" rx="6" fill="#df9fda" stroke="#3c476c"/>
+<text x="776" y="542" class="hex">#df9fda</text>
+<text x="776" y="558" class="ratio low">2.1:1 low</text>
+<rect x="924" y="528" width="32" height="32" rx="6" fill="#46314a" stroke="#3c476c"/>
+<text x="966" y="542" class="hex">#46314a</text>
+<text x="966" y="558" class="ratio">11.7:1</text>
+<text x="24" y="597" class="name">LAVENDER</text>
+<rect x="164" y="576" width="32" height="32" rx="6" fill="#cdd2e4" stroke="#3c476c"/>
+<text x="206" y="590" class="hex">#cdd2e4</text>
+<text x="206" y="606" class="ratio low">1.5:1 low</text>
+<rect x="354" y="576" width="32" height="32" rx="6" fill="#d1dafa" stroke="#3c476c"/>
+<text x="396" y="590" class="hex">#d1dafa</text>
+<text x="396" y="606" class="ratio low">1.4:1 low</text>
+<rect x="544" y="576" width="32" height="32" rx="6" fill="#b6c1ea" stroke="#3c476c"/>
+<text x="586" y="590" class="hex">#b6c1ea</text>
+<text x="586" y="606" class="ratio low">1.8:1 low</text>
+<rect x="734" y="576" width="32" height="32" rx="6" fill="#e8ecfd" stroke="#3c476c"/>
+<text x="776" y="590" class="hex">#e8ecfd</text>
+<text x="776" y="606" class="ratio low">1.2:1 low</text>
+<rect x="924" y="576" width="32" height="32" rx="6" fill="#4a4e5e" stroke="#3c476c"/>
+<text x="966" y="590" class="hex">#4a4e5e</text>
+<text x="966" y="606" class="ratio">8.3:1</text>
+<text x="24" y="645" class="name">SLATE</text>
+<rect x="164" y="624" width="32" height="32" rx="6" fill="#6a78a4" stroke="#3c476c"/>
+<text x="206" y="638" class="hex">#6a78a4</text>
+<text x="206" y="654" class="ratio low">4.3:1 low</text>
+<rect x="354" y="624" width="32" height="32" rx="6" fill="#3c476c" stroke="#3c476c"/>
+<text x="396" y="638" class="hex">#3c476c</text>
+<text x="396" y="654" class="ratio">9.1:1</text>
+<rect x="544" y="624" width="32" height="32" rx="6" fill="#2a324b" stroke="#3c476c"/>
+<text x="586" y="638" class="hex">#2a324b</text>
+<text x="586" y="654" class="ratio">12.7:1</text>
+<rect x="734" y="624" width="32" height="32" rx="6" fill="#6e7ca8" stroke="#3c476c"/>
+<text x="776" y="638" class="hex">#6e7ca8</text>
+<text x="776" y="654" class="ratio low">4.1:1 low</text>
+<rect x="924" y="624" width="32" height="32" rx="6" fill="#2a324b" stroke="#3c476c"/>
+<text x="966" y="638" class="hex">#2a324b</text>
+<text x="966" y="654" class="ratio">12.7:1</text>
+<text x="24" y="693" class="name">APRICOT</text>
+<rect x="164" y="672" width="32" height="32" rx="6" fill="#e8c8b2" stroke="#3c476c"/>
+<text x="206" y="686" class="hex">#e8c8b2</text>
+<text x="206" y="702" class="ratio low">1.6:1 low</text>
+<rect x="354" y="672" width="32" height="32" rx="6" fill="#fac29a" stroke="#3c476c"/>
+<text x="396" y="686" class="hex">#fac29a</text>
+<text x="396" y="702" class="ratio low">1.6:1 low</text>
+<rect x="544" y="672" width="32" height="32" rx="6" fill="#eca570" stroke="#3c476c"/>
+<text x="586" y="686" class="hex">#eca570</text>
+<text x="586" y="702" class="ratio low">2.1:1 low</text>
+<rect x="734" y="672" width="32" height="32" rx="6" fill="#ffe4d1" stroke="#3c476c"/>
+<text x="776" y="686" class="hex">#ffe4d1</text>
+<text x="776" y="702" class="ratio low">1.2:1 low</text>
+<rect x="924" y="672" width="32" height="32" rx="6" fill="#58463c" stroke="#3c476c"/>
+<text x="966" y="686" class="hex">#58463c</text>
+<text x="966" y="702" class="ratio">8.9:1</text>
+<text x="24" y="741" class="name">ROSE</text>
+<rect x="164" y="720" width="32" height="32" rx="6" fill="#dc95a2" stroke="#3c476c"/>
+<text x="206" y="734" class="hex">#dc95a2</text>
+<text x="206" y="750" class="ratio low">2.4:1 low</text>
+<rect x="354" y="720" width="32" height="32" rx="6" fill="#fc7e9b" stroke="#3c476c"/>
+<text x="396" y="734" class="hex">#fc7e9b</text>
+<text x="396" y="750" class="ratio low">2.4:1 low</text>
+<rect x="544" y="720" width="32" height="32" rx="6" fill="#f54f7f" stroke="#3c476c"/>
+<text x="586" y="734" class="hex">#f54f7f</text>
+<text x="586" y="750" class="ratio low">3.3:1 low</text>
+<rect x="734" y="720" width="32" height="32" rx="6" fill="#ffaaba" stroke="#3c476c"/>
+<text x="776" y="734" class="hex">#ffaaba</text>
+<text x="776" y="750" class="ratio low">1.8:1 low</text>
+<rect x="924" y="720" width="32" height="32" rx="6" fill="#592e3d" stroke="#3c476c"/>
+<text x="966" y="734" class="hex">#592e3d</text>
+<text x="966" y="750" class="ratio">11.2:1</text>
+<text x="24" y="789" class="name">SKY</text>
+<rect x="164" y="768" width="32" height="32" rx="6" fill="#85bddf" stroke="#3c476c"/>
+<text x="206" y="782" class="hex">#85bddf</text>
+<text x="206" y="798" class="ratio low">2.0:1 low</text>
+<rect x="354" y="768" width="32" height="32" rx="6" fill="#4fc1ff" stroke="#3c476c"/>
+<text x="396" y="782" class="hex">#4fc1ff</text>
+<text x="396" y="798" class="ratio low">2.0:1 low</text>
+<rect x="544" y="768" width="32" height="32" rx="6" fill="#09a9ec" stroke="#3c476c"/>
+<text x="586" y="782" class="hex">#09a9ec</text>
+<text x="586" y="798" class="ratio low">2.7:1 low</text>
+<rect x="734" y="768" width="32" height="32" rx="6" fill="#98d8ff" stroke="#3c476c"/>
+<text x="776" y="782" class="hex">#98d8ff</text>
+<text x="776" y="798" class="ratio low">1.5:1 low</text>
+<rect x="924" y="768" width="32" height="32" rx="6" fill="#1c4660" stroke="#3c476c"/>
+<text x="966" y="782" class="hex">#1c4660</text>
+<text x="966" y="798" class="ratio">10.0:1</text>
+<text x="24" y="837" class="name">PERIWINKLE</text>
+<rect x="164" y="816" width="32" height="32" rx="6" fill="#b2bee2" stroke="#3c476c"/>
+<text x="206" y="830" class="hex">#b2bee2</text>
+<text x="206" y="846" class="ratio low">1.8:1 low</text>
+<rect x="354" y="816" width="32" height="32" rx="6" fill="#a8bcfc" stroke="#3c476c"/>
+<text x="396" y="830" class="hex">#a8bcfc</text>
+<text x="396" y="846" class="ratio low">1.9:1 low</text>
+<rect x="544" y="816" width="32" height="32" rx="6" fill="#8aa2f4" stroke="#3c476c"/>
+<text x="586" y="830" class="hex">#8aa2f4</text>
+<text x="586" y="846" class="ratio low">2.5:1 low</text>
+<rect x="734" y="816" width="32" height="32" rx="6" fill="#cbd7fe" stroke="#3c476c"/>
+<text x="776" y="830" class="hex">#cbd7fe</text>
+<text x="776" y="846" class="ratio low">1.4:1 low</text>
+<rect x="924" y="816" width="32" height="32" rx="6" fill="#3b445f" stroke="#3c476c"/>
+<text x="966" y="830" class="hex">#3b445f</text>
+<text x="966" y="846" class="ratio">9.6:1</text>
+<text x="24" y="885" class="name">SILVER</text>
+<rect x="354" y="864" width="32" height="32" rx="6" fill="#bbbbbb" stroke="#3c476c"/>
+<text x="396" y="878" class="hex">#bbbbbb</text>
+<text x="396" y="894" class="ratio low">1.9:1 low</text>
+<rect x="544" y="864" width="32" height="32" rx="6" fill="#a3a3a3" stroke="#3c476c"/>
+<text x="586" y="878" class="hex">#a3a3a3</text>
+<text x="586" y="894" class="ratio low">2.5:1 low</text>
+<rect x="734" y="864" width="32" height="32" rx="6" fill="#d5d5d5" stroke="#3c476c"/>
+<text x="776" y="878" class="hex">#d5d5d5</text>
+<text x="776" y="894" class="ratio low">1.5:1 low</text>
+<rect x="924" y="864" width="32" height="32" rx="6" fill="#424348" stroke="#3c476c"/>
+<text x="966" y="878" class="hex">#424348</text>
+<text x="966" y="894" class="ratio">9.9:1</text>
+<text x="24" y="940" class="note">These are the dark-theme colors. Lasik Light High Contrast uses vivid, darker versions of the DEEP colors (7:1 or more).</text>
+</svg>

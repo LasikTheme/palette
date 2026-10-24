@@ -1,0 +1,77 @@
+# Changelog
+
+All notable changes to the Lasik palette. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+
+Contrast ratios are measured against the OBSIDIAN background `#01030a`. WCAG AA asks for at least 4.5:1 for text.
+
+## [Unreleased] - 2026-10-24
+
+### Changed
+
+- **Tiers renamed after what the color is, not after one program's slot names.** The old names came from Konsole's color scheme format (`Color`, `ColorFaint`, `ColorIntense`), but other programs use other words for the same slots (VS Code `ansiBright`, Alacritty `normal` / `bright` / `dim`, `color8`–`color15` elsewhere). The theme generator now decides which tier goes into which program slot.
+
+  | Old name | New name | What the color is |
+  |---|---|---|
+  | `NAME_FAINT` | `NAME_MUTED` | same lightness, less chroma (a tone: the color mixed with gray) |
+  | `NAME_INTENSE` | `NAME_DEEP` | darker and more saturated (richer). Same values as before. |
+  | (new) | `NAME_BRIGHT` | lighter, for the bright terminal colors (ANSI 8–15) |
+  | (new) | `NAME_QUIET` | 35% of the base color mixed into OBSIDIAN, below WCAG |
+
+  - Why: "intense" meant "richer and darker" in this palette, but Konsole uses "Intense" for its bright colors, which programs expect to be lighter. Mapping the darker colors into that slot is what made terminal bright black unreadable (1.6:1).
+  - `NAME_DEEP` keeps every original intense color unchanged. LAVENDER's original intense color (`#e8ecfd`) was lighter, not deeper, so it is now `LAVENDER_BRIGHT`.
+
+### Added
+
+- **BRIGHT tier**, the lighter version of each color, for bright terminal colors.
+
+  | Color | Bright | Contrast |
+  |---|---|---|
+  | `RED_BRIGHT` | `#ee6885` | 6.8:1 |
+  | `PEACH_BRIGHT` | `#f49f8f` | 10.0:1 |
+  | `TUMBLEWEED_BRIGHT` | `#fdbea0` | 12.8:1 |
+  | `YELLOW_BRIGHT` | `#ffeabd` | 17.4:1 |
+  | `GREEN_BRIGHT` | `#b9dda8` | 13.7:1 |
+  | `TEAL_BRIGHT` | `#6be3c9` | 13.2:1 |
+  | `SAPPHIRE_BRIGHT` | `#3fd5e6` | 11.7:1 |
+  | `BLUE_BRIGHT` | `#6fb5f1` | 9.4:1 |
+  | `MAUVE_BRIGHT` | `#d893ff` | 9.4:1 |
+  | `PINK_BRIGHT` | `#df9fda` | 9.9:1 |
+  | `LAVENDER_BRIGHT` | `#e8ecfd` | 17.5:1 |
+  | `SLATE_BRIGHT` | `#6e7ca8` | 5.0:1 |
+
+  - Each is the base color made lighter (OKLCH lightness +0.08). Two exceptions, because +0.08 would make them almost white: `YELLOW_BRIGHT` is only a little lighter (+0.02, `#ffeabd`), and `LAVENDER_BRIGHT` reuses the original `#e8ecfd`. Lavender is the terminal text color, chosen because pure white on black causes a halo around letters.
+  - The orange-yellow `#ffd370` that Bash uses for `$( )` brackets is `YELLOW_DEEP`.
+- **QUIET tier** for every color (`RED_QUIET`, `PEACH_QUIET`, ...): 35% of the base color mixed into OBSIDIAN, saved as a solid color.
+  - Why: the new Lasik Dark Quiet variant dims quotes, line numbers and other punctuation further than WCAG allows. It's an opt-in variant for people who prefer less visual noise. The 35% recipe is the one the VS Code theme already used for dimmed JSON quotes, so the look stays the same.
+  - Quiet colors are 1.5–2.6:1, so they are below WCAG on purpose. No other variant uses them.
+  - Exception: `SLATE_QUIET` is `#2a324b` (1.6:1, the same value as `SLATE_DEEP`), kept as a dark surface color. The 35% rule would give `#161b2c` (1.2:1), too close to the background to see.
+- **Five new colors:** `APRICOT` `#fac29a`, `ROSE` `#fc7e9b`, `SKY` `#4fc1ff`, `PERIWINKLE` `#a8bcfc` and `SILVER` `#bbbbbb`, with every tier.
+  - Why: the VS Code theme already used these colors (for types, parameters, constants, UI accents and punctuation), but they were hard-coded instead of coming from the palette. Now every theme color can come from one place.
+  - Their MUTED colors keep the hue and lightness and take 0.56× the chroma, the median of the hand-picked muted colors (0.27× GREEN to 0.69× BLUE). SILVER is a gray, so it has no MUTED tier.
+- **Derived DEEP colors** for the colors that had none: `LAVENDER_DEEP` `#b6c1ea`, `APRICOT_DEEP` `#eca570`, `ROSE_DEEP` `#f54f7f`, `SKY_DEEP` `#09a9ec`, `PERIWINKLE_DEEP` `#8aa2f4`, `SILVER_DEEP` `#a3a3a3`. They follow the median of the 8 original deep colors: OKLCH lightness −0.076 and 1.31× the chroma.
+- A comment at the top of `palette.toml` that explains the five tiers.
+- README section "How the tiers are made": the color models, formulas, ratios and exceptions behind every calculated color, and which colors were hand-picked.
+- `scripts/render-palette.ts`, which draws `screenshots/palette.svg` (on OBSIDIAN) and `screenshots/palette-light.svg` (on white, the editor background of Lasik Light High Contrast) from `palette.toml`.
+  - Why: a generated image always matches the palette. The old screenshot had to be redone by hand after every change.
+
+### Removed
+
+- `screenshots/palette.png`, replaced by the generated `screenshots/palette.svg`.
+- No colors were removed. Every original value still exists under its new tier name.
+
+### Unchanged
+
+- Every base color, every MUTED (formerly FAINT) color, `OBSIDIAN` and `WHITE`.
+
+## 2026-05-21
+
+### Changed
+
+- `SLATE_FAINT` `#444b64` → `#6A78A4`, which raises its contrast from 2.4:1 to 4.7:1.
+
+## 2026-04-27
+
+### Added
+
+- First version of the palette: 12 colors in three tiers (faint, base, intense), plus `OBSIDIAN` and `WHITE`.
+- `screenshots/palette.png` with all swatches.
